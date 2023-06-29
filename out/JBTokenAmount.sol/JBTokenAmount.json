@@ -10,19 +10,19 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBTokenAmount.sol",
-    "id": 27189,
+    "id": 29311,
     "exportedSymbols": {
       "JBTokenAmount": [
-        27188
+        29310
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:399:35",
+    "src": "32:399:55",
     "nodes": [
       {
-        "id": 27179,
+        "id": 29301,
         "nodeType": "PragmaDirective",
-        "src": "32:23:35",
+        "src": "32:23:55",
         "nodes": [],
         "literals": [
           "solidity",
@@ -32,21 +32,21 @@
         ]
       },
       {
-        "id": 27188,
+        "id": 29310,
         "nodeType": "StructDefinition",
-        "src": "332:98:35",
+        "src": "332:98:55",
         "nodes": [],
         "canonicalName": "JBTokenAmount",
         "members": [
           {
             "constant": false,
-            "id": 27181,
+            "id": 29303,
             "mutability": "mutable",
             "name": "token",
-            "nameLocation": "365:5:35",
+            "nameLocation": "365:5:55",
             "nodeType": "VariableDeclaration",
-            "scope": 27188,
-            "src": "357:13:35",
+            "scope": 29310,
+            "src": "357:13:55",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -54,10 +54,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 27180,
+              "id": 29302,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "357:7:35",
+              "src": "357:7:55",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -68,13 +68,13 @@
           },
           {
             "constant": false,
-            "id": 27183,
+            "id": 29305,
             "mutability": "mutable",
             "name": "value",
-            "nameLocation": "382:5:35",
+            "nameLocation": "382:5:55",
             "nodeType": "VariableDeclaration",
-            "scope": 27188,
-            "src": "374:13:35",
+            "scope": 29310,
+            "src": "374:13:55",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -82,10 +82,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 27182,
+              "id": 29304,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "374:7:35",
+              "src": "374:7:55",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -95,13 +95,13 @@
           },
           {
             "constant": false,
-            "id": 27185,
+            "id": 29307,
             "mutability": "mutable",
             "name": "decimals",
-            "nameLocation": "399:8:35",
+            "nameLocation": "399:8:55",
             "nodeType": "VariableDeclaration",
-            "scope": 27188,
-            "src": "391:16:35",
+            "scope": 29310,
+            "src": "391:16:55",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -109,10 +109,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 27184,
+              "id": 29306,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "391:7:35",
+              "src": "391:7:55",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -122,13 +122,13 @@
           },
           {
             "constant": false,
-            "id": 27187,
+            "id": 29309,
             "mutability": "mutable",
             "name": "currency",
-            "nameLocation": "419:8:35",
+            "nameLocation": "419:8:55",
             "nodeType": "VariableDeclaration",
-            "scope": 27188,
-            "src": "411:16:35",
+            "scope": 29310,
+            "src": "411:16:55",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -136,10 +136,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 27186,
+              "id": 29308,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "411:7:35",
+              "src": "411:7:55",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -149,12 +149,12 @@
           }
         ],
         "name": "JBTokenAmount",
-        "nameLocation": "339:13:35",
-        "scope": 27189,
+        "nameLocation": "339:13:55",
+        "scope": 29311,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 35
+  "id": 55
 }

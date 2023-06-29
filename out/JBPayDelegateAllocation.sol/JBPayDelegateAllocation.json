@@ -10,31 +10,31 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBPayDelegateAllocation.sol",
-    "id": 27100,
+    "id": 29184,
     "exportedSymbols": {
       "IERC165": [
-        27316
+        29544
       ],
       "IJBPayDelegate": [
-        26825
+        28417
       ],
       "JBDidPayData": [
-        27026
+        29018
       ],
       "JBPayDelegateAllocation": [
-        27099
+        29183
       ],
       "JBTokenAmount": [
-        27188
+        29310
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:276:30",
+    "src": "32:276:48",
     "nodes": [
       {
-        "id": 27091,
+        "id": 29175,
         "nodeType": "PragmaDirective",
-        "src": "32:23:30",
+        "src": "32:23:48",
         "nodes": [],
         "literals": [
           "solidity",
@@ -44,63 +44,63 @@
         ]
       },
       {
-        "id": 27092,
+        "id": 29176,
         "nodeType": "ImportDirective",
-        "src": "57:42:30",
+        "src": "57:42:48",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBPayDelegate.sol",
         "file": "../interfaces/IJBPayDelegate.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 27100,
-        "sourceUnit": 26826,
+        "scope": 29184,
+        "sourceUnit": 28418,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 27099,
+        "id": 29183,
         "nodeType": "StructDefinition",
-        "src": "228:79:30",
+        "src": "228:79:48",
         "nodes": [],
         "canonicalName": "JBPayDelegateAllocation",
         "documentation": {
-          "id": 27093,
+          "id": 29177,
           "nodeType": "StructuredDocumentation",
-          "src": "101:126:30",
+          "src": "101:126:48",
           "text": "@member delegate A delegate contract to use for subsequent calls.\n@member amount The amount to send to the delegate."
         },
         "members": [
           {
             "constant": false,
-            "id": 27096,
+            "id": 29180,
             "mutability": "mutable",
             "name": "delegate",
-            "nameLocation": "278:8:30",
+            "nameLocation": "278:8:48",
             "nodeType": "VariableDeclaration",
-            "scope": 27099,
-            "src": "263:23:30",
+            "scope": 29183,
+            "src": "263:23:48",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBPayDelegate_$26825",
+              "typeIdentifier": "t_contract$_IJBPayDelegate_$28417",
               "typeString": "contract IJBPayDelegate"
             },
             "typeName": {
-              "id": 27095,
+              "id": 29179,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 27094,
+                "id": 29178,
                 "name": "IJBPayDelegate",
                 "nameLocations": [
-                  "263:14:30"
+                  "263:14:48"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 26825,
-                "src": "263:14:30"
+                "referencedDeclaration": 28417,
+                "src": "263:14:48"
               },
-              "referencedDeclaration": 26825,
-              "src": "263:14:30",
+              "referencedDeclaration": 28417,
+              "src": "263:14:48",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBPayDelegate_$26825",
+                "typeIdentifier": "t_contract$_IJBPayDelegate_$28417",
                 "typeString": "contract IJBPayDelegate"
               }
             },
@@ -108,13 +108,13 @@
           },
           {
             "constant": false,
-            "id": 27098,
+            "id": 29182,
             "mutability": "mutable",
             "name": "amount",
-            "nameLocation": "298:6:30",
+            "nameLocation": "298:6:48",
             "nodeType": "VariableDeclaration",
-            "scope": 27099,
-            "src": "290:14:30",
+            "scope": 29183,
+            "src": "290:14:48",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -122,10 +122,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 27097,
+              "id": 29181,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "290:7:30",
+              "src": "290:7:48",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -135,12 +135,12 @@
           }
         ],
         "name": "JBPayDelegateAllocation",
-        "nameLocation": "235:23:30",
-        "scope": 27100,
+        "nameLocation": "235:23:48",
+        "scope": 29184,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 30
+  "id": 48
 }

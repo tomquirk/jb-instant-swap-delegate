@@ -600,76 +600,76 @@
   },
   "ast": {
     "absolutePath": "script/Deploy.s.sol",
-    "id": 26019,
+    "id": 29653,
     "exportedSymbols": {
       "Deploy": [
-        25966
+        29600
       ],
       "DeployGoerli": [
-        26018
+        29652
       ],
       "DeployMainnet": [
-        25990
+        29624
       ],
       "IJBDelegatesRegistry": [
-        25702
+        29336
       ],
       "IJBOperatorStore": [
-        24768
+        28402
       ],
       "MyDelegate": [
-        26354
+        29988
       ],
       "MyDelegateDeployer": [
-        26465
+        30099
       ],
       "MyDelegateProjectDeployer": [
-        26935
+        30569
       ],
       "Script": [
-        108
+        2400
       ],
       "ScriptBase": [
-        71
+        2363
       ],
       "StdChains": [
-        772
+        4298
       ],
       "StdCheatsSafe": [
-        2344
+        5870
       ],
       "StdStorage": [
-        3574
+        7166
       ],
       "StdUtils": [
-        5761
+        9353
       ],
       "VmSafe": [
-        6726
+        10360
       ],
       "console": [
-        15115
+        18749
       ],
       "console2": [
-        23211
+        26845
       ],
       "stdJson": [
-        3400
+        6992
       ],
       "stdMath": [
-        3542
+        7134
       ],
       "stdStorageSafe": [
-        4466
+        8058
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:1600:56",
+    "src": "32:1600:60",
     "nodes": [
       {
-        "id": 25912,
+        "id": 29546,
         "nodeType": "PragmaDirective",
-        "src": "32:24:56",
+        "src": "32:24:60",
         "nodes": [],
         "literals": [
           "solidity",
@@ -679,37 +679,37 @@
         ]
       },
       {
-        "id": 25913,
+        "id": 29547,
         "nodeType": "ImportDirective",
-        "src": "58:30:56",
+        "src": "58:30:60",
         "nodes": [],
         "absolutePath": "lib/forge-std/src/Script.sol",
         "file": "forge-std/Script.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 109,
+        "scope": 29653,
+        "sourceUnit": 2401,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 25915,
+        "id": 29549,
         "nodeType": "ImportDirective",
-        "src": "89:116:56",
+        "src": "89:116:60",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol",
         "file": "@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 25703,
+        "scope": 29653,
+        "sourceUnit": 29337,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 25914,
+              "id": 29548,
               "name": "IJBDelegatesRegistry",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 25702,
-              "src": "97:20:56",
+              "referencedDeclaration": 29336,
+              "src": "97:20:60",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -718,24 +718,24 @@
         "unitAlias": ""
       },
       {
-        "id": 25917,
+        "id": 29551,
         "nodeType": "ImportDirective",
-        "src": "206:108:56",
+        "src": "206:108:60",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBOperatorStore.sol",
         "file": "@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBOperatorStore.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 24769,
+        "scope": 29653,
+        "sourceUnit": 28403,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 25916,
+              "id": 29550,
               "name": "IJBOperatorStore",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 24768,
-              "src": "214:16:56",
+              "referencedDeclaration": 28402,
+              "src": "214:16:60",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -744,24 +744,24 @@
         "unitAlias": ""
       },
       {
-        "id": 25919,
+        "id": 29553,
         "nodeType": "ImportDirective",
-        "src": "315:51:56",
+        "src": "315:51:60",
         "nodes": [],
         "absolutePath": "src/MyDelegate.sol",
         "file": "./../src/MyDelegate.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 26355,
+        "scope": 29653,
+        "sourceUnit": 29989,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 25918,
+              "id": 29552,
               "name": "MyDelegate",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 26354,
-              "src": "323:10:56",
+              "referencedDeclaration": 29988,
+              "src": "323:10:60",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -770,24 +770,24 @@
         "unitAlias": ""
       },
       {
-        "id": 25921,
+        "id": 29555,
         "nodeType": "ImportDirective",
-        "src": "367:67:56",
+        "src": "367:67:60",
         "nodes": [],
         "absolutePath": "src/MyDelegateDeployer.sol",
         "file": "./../src/MyDelegateDeployer.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 26466,
+        "scope": 29653,
+        "sourceUnit": 30100,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 25920,
+              "id": 29554,
               "name": "MyDelegateDeployer",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 26465,
-              "src": "375:18:56",
+              "referencedDeclaration": 30099,
+              "src": "375:18:60",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -796,24 +796,24 @@
         "unitAlias": ""
       },
       {
-        "id": 25923,
+        "id": 29557,
         "nodeType": "ImportDirective",
-        "src": "435:81:56",
+        "src": "435:81:60",
         "nodes": [],
         "absolutePath": "src/MyDelegateProjectDeployer.sol",
         "file": "./../src/MyDelegateProjectDeployer.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 26019,
-        "sourceUnit": 26936,
+        "scope": 29653,
+        "sourceUnit": 30570,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 25922,
+              "id": 29556,
               "name": "MyDelegateProjectDeployer",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 26935,
-              "src": "443:25:56",
+              "referencedDeclaration": 30569,
+              "src": "443:25:60",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -822,19 +822,19 @@
         "unitAlias": ""
       },
       {
-        "id": 25966,
+        "id": 29600,
         "nodeType": "ContractDefinition",
-        "src": "518:448:56",
+        "src": "518:448:60",
         "nodes": [
           {
-            "id": 25965,
+            "id": 29599,
             "nodeType": "FunctionDefinition",
-            "src": "559:405:56",
+            "src": "559:405:60",
             "nodes": [],
             "body": {
-              "id": 25964,
+              "id": 29598,
               "nodeType": "Block",
-              "src": "647:317:56",
+              "src": "647:317:60",
               "nodes": [],
               "statements": [
                 {
@@ -843,33 +843,33 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 25934,
+                        "id": 29568,
                         "name": "vm",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 52,
-                        "src": "657:2:56",
+                        "referencedDeclaration": 2344,
+                        "src": "657:2:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Vm_$7051",
+                          "typeIdentifier": "t_contract$_Vm_$10685",
                           "typeString": "contract Vm"
                         }
                       },
-                      "id": 25936,
+                      "id": 29570,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "660:9:56",
+                      "memberLocation": "660:9:60",
                       "memberName": "broadcast",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6154,
-                      "src": "657:12:56",
+                      "referencedDeclaration": 9788,
+                      "src": "657:12:60",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
                         "typeString": "function () external"
                       }
                     },
-                    "id": 25937,
+                    "id": 29571,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -878,98 +878,98 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "657:14:56",
+                    "src": "657:14:60",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 25938,
+                  "id": 29572,
                   "nodeType": "ExpressionStatement",
-                  "src": "657:14:56"
+                  "src": "657:14:60"
                 },
                 {
                   "assignments": [
-                    25941
+                    29575
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 25941,
+                      "id": 29575,
                       "mutability": "mutable",
                       "name": "_delegateImplementation",
-                      "nameLocation": "692:23:56",
+                      "nameLocation": "692:23:60",
                       "nodeType": "VariableDeclaration",
-                      "scope": 25964,
-                      "src": "681:34:56",
+                      "scope": 29598,
+                      "src": "681:34:60",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                        "typeIdentifier": "t_contract$_MyDelegate_$29988",
                         "typeString": "contract MyDelegate"
                       },
                       "typeName": {
-                        "id": 25940,
+                        "id": 29574,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 25939,
+                          "id": 29573,
                           "name": "MyDelegate",
                           "nameLocations": [
-                            "681:10:56"
+                            "681:10:60"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 26354,
-                          "src": "681:10:56"
+                          "referencedDeclaration": 29988,
+                          "src": "681:10:60"
                         },
-                        "referencedDeclaration": 26354,
-                        "src": "681:10:56",
+                        "referencedDeclaration": 29988,
+                        "src": "681:10:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                          "typeIdentifier": "t_contract$_MyDelegate_$29988",
                           "typeString": "contract MyDelegate"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 25946,
+                  "id": 29580,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 25944,
+                      "id": 29578,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "718:14:56",
+                      "src": "718:14:60",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MyDelegate_$26354_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_MyDelegate_$29988_$",
                         "typeString": "function () returns (contract MyDelegate)"
                       },
                       "typeName": {
-                        "id": 25943,
+                        "id": 29577,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 25942,
+                          "id": 29576,
                           "name": "MyDelegate",
                           "nameLocations": [
-                            "722:10:56"
+                            "722:10:60"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 26354,
-                          "src": "722:10:56"
+                          "referencedDeclaration": 29988,
+                          "src": "722:10:60"
                         },
-                        "referencedDeclaration": 26354,
-                        "src": "722:10:56",
+                        "referencedDeclaration": 29988,
+                        "src": "722:10:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                          "typeIdentifier": "t_contract$_MyDelegate_$29988",
                           "typeString": "contract MyDelegate"
                         }
                       }
                     },
-                    "id": 25945,
+                    "id": 29579,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -978,83 +978,83 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "718:16:56",
+                    "src": "718:16:60",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                      "typeIdentifier": "t_contract$_MyDelegate_$29988",
                       "typeString": "contract MyDelegate"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "681:53:56"
+                  "src": "681:53:60"
                 },
                 {
                   "assignments": [
-                    25949
+                    29583
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 25949,
+                      "id": 29583,
                       "mutability": "mutable",
                       "name": "_delegateDeployer",
-                      "nameLocation": "763:17:56",
+                      "nameLocation": "763:17:60",
                       "nodeType": "VariableDeclaration",
-                      "scope": 25964,
-                      "src": "744:36:56",
+                      "scope": 29598,
+                      "src": "744:36:60",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                        "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                         "typeString": "contract MyDelegateDeployer"
                       },
                       "typeName": {
-                        "id": 25948,
+                        "id": 29582,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 25947,
+                          "id": 29581,
                           "name": "MyDelegateDeployer",
                           "nameLocations": [
-                            "744:18:56"
+                            "744:18:60"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 26465,
-                          "src": "744:18:56"
+                          "referencedDeclaration": 30099,
+                          "src": "744:18:60"
                         },
-                        "referencedDeclaration": 26465,
-                        "src": "744:18:56",
+                        "referencedDeclaration": 30099,
+                        "src": "744:18:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                           "typeString": "contract MyDelegateDeployer"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 25956,
+                  "id": 29590,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 25953,
+                        "id": 29587,
                         "name": "_delegateImplementation",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25941,
-                        "src": "806:23:56",
+                        "referencedDeclaration": 29575,
+                        "src": "806:23:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                          "typeIdentifier": "t_contract$_MyDelegate_$29988",
                           "typeString": "contract MyDelegate"
                         }
                       },
                       {
-                        "id": 25954,
+                        "id": 29588,
                         "name": "_registry",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25931,
-                        "src": "831:9:56",
+                        "referencedDeclaration": 29565,
+                        "src": "831:9:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       }
@@ -1062,47 +1062,47 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MyDelegate_$26354",
+                          "typeIdentifier": "t_contract$_MyDelegate_$29988",
                           "typeString": "contract MyDelegate"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       ],
-                      "id": 25952,
+                      "id": 29586,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "783:22:56",
+                      "src": "783:22:60",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_MyDelegate_$26354_$_t_contract$_IJBDelegatesRegistry_$25702_$returns$_t_contract$_MyDelegateDeployer_$26465_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_MyDelegate_$29988_$_t_contract$_IJBDelegatesRegistry_$29336_$returns$_t_contract$_MyDelegateDeployer_$30099_$",
                         "typeString": "function (contract MyDelegate,contract IJBDelegatesRegistry) returns (contract MyDelegateDeployer)"
                       },
                       "typeName": {
-                        "id": 25951,
+                        "id": 29585,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 25950,
+                          "id": 29584,
                           "name": "MyDelegateDeployer",
                           "nameLocations": [
-                            "787:18:56"
+                            "787:18:60"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 26465,
-                          "src": "787:18:56"
+                          "referencedDeclaration": 30099,
+                          "src": "787:18:60"
                         },
-                        "referencedDeclaration": 26465,
-                        "src": "787:18:56",
+                        "referencedDeclaration": 30099,
+                        "src": "787:18:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                           "typeString": "contract MyDelegateDeployer"
                         }
                       }
                     },
-                    "id": 25955,
+                    "id": 29589,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1111,40 +1111,40 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "783:58:56",
+                    "src": "783:58:60",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                      "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                       "typeString": "contract MyDelegateDeployer"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "744:97:56"
+                  "src": "744:97:60"
                 },
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 25960,
+                        "id": 29594,
                         "name": "_delegateDeployer",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25949,
-                        "src": "896:17:56",
+                        "referencedDeclaration": 29583,
+                        "src": "896:17:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                           "typeString": "contract MyDelegateDeployer"
                         }
                       },
                       {
-                        "id": 25961,
+                        "id": 29595,
                         "name": "_operatorStore",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25928,
-                        "src": "929:14:56",
+                        "referencedDeclaration": 29562,
+                        "src": "929:14:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         }
                       }
@@ -1152,47 +1152,47 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$26465",
+                          "typeIdentifier": "t_contract$_MyDelegateDeployer_$30099",
                           "typeString": "contract MyDelegateDeployer"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         }
                       ],
-                      "id": 25959,
+                      "id": 29593,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "nodeType": "NewExpression",
-                      "src": "851:29:56",
+                      "src": "851:29:60",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_MyDelegateDeployer_$26465_$_t_contract$_IJBOperatorStore_$24768_$returns$_t_contract$_MyDelegateProjectDeployer_$26935_$",
+                        "typeIdentifier": "t_function_creation_nonpayable$_t_contract$_MyDelegateDeployer_$30099_$_t_contract$_IJBOperatorStore_$28402_$returns$_t_contract$_MyDelegateProjectDeployer_$30569_$",
                         "typeString": "function (contract MyDelegateDeployer,contract IJBOperatorStore) returns (contract MyDelegateProjectDeployer)"
                       },
                       "typeName": {
-                        "id": 25958,
+                        "id": 29592,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 25957,
+                          "id": 29591,
                           "name": "MyDelegateProjectDeployer",
                           "nameLocations": [
-                            "855:25:56"
+                            "855:25:60"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 26935,
-                          "src": "855:25:56"
+                          "referencedDeclaration": 30569,
+                          "src": "855:25:60"
                         },
-                        "referencedDeclaration": 26935,
-                        "src": "855:25:56",
+                        "referencedDeclaration": 30569,
+                        "src": "855:25:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_MyDelegateProjectDeployer_$26935",
+                          "typeIdentifier": "t_contract$_MyDelegateProjectDeployer_$30569",
                           "typeString": "contract MyDelegateProjectDeployer"
                         }
                       }
                     },
-                    "id": 25962,
+                    "id": 29596,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1201,16 +1201,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "851:106:56",
+                    "src": "851:106:60",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_MyDelegateProjectDeployer_$26935",
+                      "typeIdentifier": "t_contract$_MyDelegateProjectDeployer_$30569",
                       "typeString": "contract MyDelegateProjectDeployer"
                     }
                   },
-                  "id": 25963,
+                  "id": 29597,
                   "nodeType": "ExpressionStatement",
-                  "src": "851:106:56"
+                  "src": "851:106:60"
                 }
               ]
             },
@@ -1218,43 +1218,43 @@
             "kind": "function",
             "modifiers": [],
             "name": "_run",
-            "nameLocation": "568:4:56",
+            "nameLocation": "568:4:60",
             "parameters": {
-              "id": 25932,
+              "id": 29566,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 25928,
+                  "id": 29562,
                   "mutability": "mutable",
                   "name": "_operatorStore",
-                  "nameLocation": "590:14:56",
+                  "nameLocation": "590:14:60",
                   "nodeType": "VariableDeclaration",
-                  "scope": 25965,
-                  "src": "573:31:56",
+                  "scope": 29599,
+                  "src": "573:31:60",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                    "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                     "typeString": "contract IJBOperatorStore"
                   },
                   "typeName": {
-                    "id": 25927,
+                    "id": 29561,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 25926,
+                      "id": 29560,
                       "name": "IJBOperatorStore",
                       "nameLocations": [
-                        "573:16:56"
+                        "573:16:60"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 24768,
-                      "src": "573:16:56"
+                      "referencedDeclaration": 28402,
+                      "src": "573:16:60"
                     },
-                    "referencedDeclaration": 24768,
-                    "src": "573:16:56",
+                    "referencedDeclaration": 28402,
+                    "src": "573:16:60",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                      "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                       "typeString": "contract IJBOperatorStore"
                     }
                   },
@@ -1262,51 +1262,51 @@
                 },
                 {
                   "constant": false,
-                  "id": 25931,
+                  "id": 29565,
                   "mutability": "mutable",
                   "name": "_registry",
-                  "nameLocation": "627:9:56",
+                  "nameLocation": "627:9:60",
                   "nodeType": "VariableDeclaration",
-                  "scope": 25965,
-                  "src": "606:30:56",
+                  "scope": 29599,
+                  "src": "606:30:60",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                    "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                     "typeString": "contract IJBDelegatesRegistry"
                   },
                   "typeName": {
-                    "id": 25930,
+                    "id": 29564,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 25929,
+                      "id": 29563,
                       "name": "IJBDelegatesRegistry",
                       "nameLocations": [
-                        "606:20:56"
+                        "606:20:60"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 25702,
-                      "src": "606:20:56"
+                      "referencedDeclaration": 29336,
+                      "src": "606:20:60"
                     },
-                    "referencedDeclaration": 25702,
-                    "src": "606:20:56",
+                    "referencedDeclaration": 29336,
+                    "src": "606:20:60",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                      "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                       "typeString": "contract IJBDelegatesRegistry"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "572:65:56"
+              "src": "572:65:60"
             },
             "returnParameters": {
-              "id": 25933,
+              "id": 29567,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "647:0:56"
+              "src": "647:0:60"
             },
-            "scope": 25966,
+            "scope": 29600,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
@@ -1316,18 +1316,18 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 25924,
+              "id": 29558,
               "name": "Script",
               "nameLocations": [
-                "546:6:56"
+                "546:6:60"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 108,
-              "src": "546:6:56"
+              "referencedDeclaration": 2400,
+              "src": "546:6:60"
             },
-            "id": 25925,
+            "id": 29559,
             "nodeType": "InheritanceSpecifier",
-            "src": "546:6:56"
+            "src": "546:6:60"
           }
         ],
         "canonicalName": "Deploy",
@@ -1335,58 +1335,58 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          25966,
-          108,
-          71,
-          56,
-          5761,
-          2344,
-          772
+          29600,
+          2400,
+          2363,
+          2348,
+          9353,
+          5870,
+          4298
         ],
         "name": "Deploy",
-        "nameLocation": "536:6:56",
-        "scope": 26019,
+        "nameLocation": "536:6:60",
+        "scope": 29653,
         "usedErrors": [],
         "usedEvents": []
       },
       {
-        "id": 25990,
+        "id": 29624,
         "nodeType": "ContractDefinition",
-        "src": "968:315:56",
+        "src": "968:315:60",
         "nodes": [
           {
-            "id": 25974,
+            "id": 29608,
             "nodeType": "VariableDeclaration",
-            "src": "1007:94:56",
+            "src": "1007:94:60",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_operatorStore",
-            "nameLocation": "1024:14:56",
-            "scope": 25990,
+            "nameLocation": "1024:14:60",
+            "scope": 29624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+              "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
               "typeString": "contract IJBOperatorStore"
             },
             "typeName": {
-              "id": 25970,
+              "id": 29604,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 25969,
+                "id": 29603,
                 "name": "IJBOperatorStore",
                 "nameLocations": [
-                  "1007:16:56"
+                  "1007:16:60"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 24768,
-                "src": "1007:16:56"
+                "referencedDeclaration": 28402,
+                "src": "1007:16:60"
               },
-              "referencedDeclaration": 24768,
-              "src": "1007:16:56",
+              "referencedDeclaration": 28402,
+              "src": "1007:16:60",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                 "typeString": "contract IJBOperatorStore"
               }
             },
@@ -1394,14 +1394,14 @@
               "arguments": [
                 {
                   "hexValue": "307836463343356166436130633965446633393236654632644446313763386165363339316166456662",
-                  "id": 25972,
+                  "id": 29606,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
                   "kind": "number",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "1058:42:56",
+                  "src": "1058:42:60",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -1416,18 +1416,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 25971,
+                "id": 29605,
                 "name": "IJBOperatorStore",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 24768,
-                "src": "1041:16:56",
+                "referencedDeclaration": 28402,
+                "src": "1041:16:60",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_IJBOperatorStore_$24768_$",
+                  "typeIdentifier": "t_type$_t_contract$_IJBOperatorStore_$28402_$",
                   "typeString": "type(contract IJBOperatorStore)"
                 }
               },
-              "id": 25973,
+              "id": 29607,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1436,48 +1436,48 @@
               "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "1041:60:56",
+              "src": "1041:60:60",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                 "typeString": "contract IJBOperatorStore"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 25980,
+            "id": 29614,
             "nodeType": "VariableDeclaration",
-            "src": "1107:97:56",
+            "src": "1107:97:60",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_registry",
-            "nameLocation": "1128:9:56",
-            "scope": 25990,
+            "nameLocation": "1128:9:60",
+            "scope": 29624,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+              "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
               "typeString": "contract IJBDelegatesRegistry"
             },
             "typeName": {
-              "id": 25976,
+              "id": 29610,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 25975,
+                "id": 29609,
                 "name": "IJBDelegatesRegistry",
                 "nameLocations": [
-                  "1107:20:56"
+                  "1107:20:60"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 25702,
-                "src": "1107:20:56"
+                "referencedDeclaration": 29336,
+                "src": "1107:20:60"
               },
-              "referencedDeclaration": 25702,
-              "src": "1107:20:56",
+              "referencedDeclaration": 29336,
+              "src": "1107:20:60",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                 "typeString": "contract IJBDelegatesRegistry"
               }
             },
@@ -1485,14 +1485,14 @@
               "arguments": [
                 {
                   "hexValue": "307837413533634141316443346437353243414432383364303339353031633045653435373139466143",
-                  "id": 25978,
+                  "id": 29612,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
                   "kind": "number",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "1161:42:56",
+                  "src": "1161:42:60",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -1507,18 +1507,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 25977,
+                "id": 29611,
                 "name": "IJBDelegatesRegistry",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 25702,
-                "src": "1140:20:56",
+                "referencedDeclaration": 29336,
+                "src": "1140:20:60",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_IJBDelegatesRegistry_$25702_$",
+                  "typeIdentifier": "t_type$_t_contract$_IJBDelegatesRegistry_$29336_$",
                   "typeString": "type(contract IJBDelegatesRegistry)"
                 }
               },
-              "id": 25979,
+              "id": 29613,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1527,50 +1527,50 @@
               "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "1140:64:56",
+              "src": "1140:64:60",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                 "typeString": "contract IJBDelegatesRegistry"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 25989,
+            "id": 29623,
             "nodeType": "FunctionDefinition",
-            "src": "1211:70:56",
+            "src": "1211:70:60",
             "nodes": [],
             "body": {
-              "id": 25988,
+              "id": 29622,
               "nodeType": "Block",
-              "src": "1233:48:56",
+              "src": "1233:48:60",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 25984,
+                        "id": 29618,
                         "name": "_operatorStore",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25974,
-                        "src": "1248:14:56",
+                        "referencedDeclaration": 29608,
+                        "src": "1248:14:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         }
                       },
                       {
-                        "id": 25985,
+                        "id": 29619,
                         "name": "_registry",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25980,
-                        "src": "1264:9:56",
+                        "referencedDeclaration": 29614,
+                        "src": "1264:9:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       }
@@ -1578,26 +1578,26 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       ],
-                      "id": 25983,
+                      "id": 29617,
                       "name": "_run",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 25965,
-                      "src": "1243:4:56",
+                      "referencedDeclaration": 29599,
+                      "src": "1243:4:60",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IJBOperatorStore_$24768_$_t_contract$_IJBDelegatesRegistry_$25702_$returns$__$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IJBOperatorStore_$28402_$_t_contract$_IJBDelegatesRegistry_$29336_$returns$__$",
                         "typeString": "function (contract IJBOperatorStore,contract IJBDelegatesRegistry)"
                       }
                     },
-                    "id": 25986,
+                    "id": 29620,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1606,16 +1606,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1243:31:56",
+                    "src": "1243:31:60",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 25987,
+                  "id": 29621,
                   "nodeType": "ExpressionStatement",
-                  "src": "1243:31:56"
+                  "src": "1243:31:60"
                 }
               ]
             },
@@ -1624,20 +1624,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "run",
-            "nameLocation": "1220:3:56",
+            "nameLocation": "1220:3:60",
             "parameters": {
-              "id": 25981,
+              "id": 29615,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1223:2:56"
+              "src": "1223:2:60"
             },
             "returnParameters": {
-              "id": 25982,
+              "id": 29616,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1233:0:56"
+              "src": "1233:0:60"
             },
-            "scope": 25990,
+            "scope": 29624,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -1647,82 +1647,82 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 25967,
+              "id": 29601,
               "name": "Deploy",
               "nameLocations": [
-                "994:6:56"
+                "994:6:60"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 25966,
-              "src": "994:6:56"
+              "referencedDeclaration": 29600,
+              "src": "994:6:60"
             },
-            "id": 25968,
+            "id": 29602,
             "nodeType": "InheritanceSpecifier",
-            "src": "994:6:56"
+            "src": "994:6:60"
           }
         ],
         "canonicalName": "DeployMainnet",
         "contractDependencies": [
-          26354,
-          26465,
-          26935
+          29988,
+          30099,
+          30569
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          25990,
-          25966,
-          108,
-          71,
-          56,
-          5761,
-          2344,
-          772
+          29624,
+          29600,
+          2400,
+          2363,
+          2348,
+          9353,
+          5870,
+          4298
         ],
         "name": "DeployMainnet",
-        "nameLocation": "977:13:56",
-        "scope": 26019,
+        "nameLocation": "977:13:60",
+        "scope": 29653,
         "usedErrors": [],
         "usedEvents": []
       },
       {
-        "id": 26018,
+        "id": 29652,
         "nodeType": "ContractDefinition",
-        "src": "1285:346:56",
+        "src": "1285:346:60",
         "nodes": [
           {
-            "id": 25998,
+            "id": 29632,
             "nodeType": "VariableDeclaration",
-            "src": "1323:94:56",
+            "src": "1323:94:60",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_operatorStore",
-            "nameLocation": "1340:14:56",
-            "scope": 26018,
+            "nameLocation": "1340:14:60",
+            "scope": 29652,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+              "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
               "typeString": "contract IJBOperatorStore"
             },
             "typeName": {
-              "id": 25994,
+              "id": 29628,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 25993,
+                "id": 29627,
                 "name": "IJBOperatorStore",
                 "nameLocations": [
-                  "1323:16:56"
+                  "1323:16:60"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 24768,
-                "src": "1323:16:56"
+                "referencedDeclaration": 28402,
+                "src": "1323:16:60"
               },
-              "referencedDeclaration": 24768,
-              "src": "1323:16:56",
+              "referencedDeclaration": 28402,
+              "src": "1323:16:60",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                 "typeString": "contract IJBOperatorStore"
               }
             },
@@ -1730,14 +1730,14 @@
               "arguments": [
                 {
                   "hexValue": "307839396442366235313736383332333764453943343934626264313738363166333630384633353835",
-                  "id": 25996,
+                  "id": 29630,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
                   "kind": "number",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "1374:42:56",
+                  "src": "1374:42:60",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -1752,18 +1752,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 25995,
+                "id": 29629,
                 "name": "IJBOperatorStore",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 24768,
-                "src": "1357:16:56",
+                "referencedDeclaration": 28402,
+                "src": "1357:16:60",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_IJBOperatorStore_$24768_$",
+                  "typeIdentifier": "t_type$_t_contract$_IJBOperatorStore_$28402_$",
                   "typeString": "type(contract IJBOperatorStore)"
                 }
               },
-              "id": 25997,
+              "id": 29631,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1772,48 +1772,48 @@
               "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "1357:60:56",
+              "src": "1357:60:60",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                 "typeString": "contract IJBOperatorStore"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 26004,
+            "id": 29638,
             "nodeType": "VariableDeclaration",
-            "src": "1423:97:56",
+            "src": "1423:97:60",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_registry",
-            "nameLocation": "1444:9:56",
-            "scope": 26018,
+            "nameLocation": "1444:9:60",
+            "scope": 29652,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+              "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
               "typeString": "contract IJBDelegatesRegistry"
             },
             "typeName": {
-              "id": 26000,
+              "id": 29634,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 25999,
+                "id": 29633,
                 "name": "IJBDelegatesRegistry",
                 "nameLocations": [
-                  "1423:20:56"
+                  "1423:20:60"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 25702,
-                "src": "1423:20:56"
+                "referencedDeclaration": 29336,
+                "src": "1423:20:60"
               },
-              "referencedDeclaration": 25702,
-              "src": "1423:20:56",
+              "referencedDeclaration": 29336,
+              "src": "1423:20:60",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                 "typeString": "contract IJBDelegatesRegistry"
               }
             },
@@ -1821,14 +1821,14 @@
               "arguments": [
                 {
                   "hexValue": "307843653345626538413733333944316637373033624146333633643236634432623135443233433233",
-                  "id": 26002,
+                  "id": 29636,
                   "isConstant": false,
                   "isLValue": false,
                   "isPure": true,
                   "kind": "number",
                   "lValueRequested": false,
                   "nodeType": "Literal",
-                  "src": "1477:42:56",
+                  "src": "1477:42:60",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -1843,18 +1843,18 @@
                     "typeString": "address"
                   }
                 ],
-                "id": 26001,
+                "id": 29635,
                 "name": "IJBDelegatesRegistry",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 25702,
-                "src": "1456:20:56",
+                "referencedDeclaration": 29336,
+                "src": "1456:20:60",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_contract$_IJBDelegatesRegistry_$25702_$",
+                  "typeIdentifier": "t_type$_t_contract$_IJBDelegatesRegistry_$29336_$",
                   "typeString": "type(contract IJBDelegatesRegistry)"
                 }
               },
-              "id": 26003,
+              "id": 29637,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -1863,24 +1863,24 @@
               "nameLocations": [],
               "names": [],
               "nodeType": "FunctionCall",
-              "src": "1456:64:56",
+              "src": "1456:64:60",
               "tryCall": false,
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                 "typeString": "contract IJBDelegatesRegistry"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 26008,
+            "id": 29642,
             "nodeType": "FunctionDefinition",
-            "src": "1527:26:56",
+            "src": "1527:26:60",
             "nodes": [],
             "body": {
-              "id": 26007,
+              "id": 29641,
               "nodeType": "Block",
-              "src": "1551:2:56",
+              "src": "1551:2:60",
               "nodes": [],
               "statements": []
             },
@@ -1889,59 +1889,59 @@
             "kind": "function",
             "modifiers": [],
             "name": "setUp",
-            "nameLocation": "1536:5:56",
+            "nameLocation": "1536:5:60",
             "parameters": {
-              "id": 26005,
+              "id": 29639,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1541:2:56"
+              "src": "1541:2:60"
             },
             "returnParameters": {
-              "id": 26006,
+              "id": 29640,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1551:0:56"
+              "src": "1551:0:60"
             },
-            "scope": 26018,
+            "scope": 29652,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 26017,
+            "id": 29651,
             "nodeType": "FunctionDefinition",
-            "src": "1559:70:56",
+            "src": "1559:70:60",
             "nodes": [],
             "body": {
-              "id": 26016,
+              "id": 29650,
               "nodeType": "Block",
-              "src": "1581:48:56",
+              "src": "1581:48:60",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 26012,
+                        "id": 29646,
                         "name": "_operatorStore",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 25998,
-                        "src": "1596:14:56",
+                        "referencedDeclaration": 29632,
+                        "src": "1596:14:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         }
                       },
                       {
-                        "id": 26013,
+                        "id": 29647,
                         "name": "_registry",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 26004,
-                        "src": "1612:9:56",
+                        "referencedDeclaration": 29638,
+                        "src": "1612:9:60",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       }
@@ -1949,26 +1949,26 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_contract$_IJBOperatorStore_$24768",
+                          "typeIdentifier": "t_contract$_IJBOperatorStore_$28402",
                           "typeString": "contract IJBOperatorStore"
                         },
                         {
-                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$25702",
+                          "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$29336",
                           "typeString": "contract IJBDelegatesRegistry"
                         }
                       ],
-                      "id": 26011,
+                      "id": 29645,
                       "name": "_run",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 25965,
-                      "src": "1591:4:56",
+                      "referencedDeclaration": 29599,
+                      "src": "1591:4:60",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IJBOperatorStore_$24768_$_t_contract$_IJBDelegatesRegistry_$25702_$returns$__$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_contract$_IJBOperatorStore_$28402_$_t_contract$_IJBDelegatesRegistry_$29336_$returns$__$",
                         "typeString": "function (contract IJBOperatorStore,contract IJBDelegatesRegistry)"
                       }
                     },
-                    "id": 26014,
+                    "id": 29648,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1977,16 +1977,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "1591:31:56",
+                    "src": "1591:31:60",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 26015,
+                  "id": 29649,
                   "nodeType": "ExpressionStatement",
-                  "src": "1591:31:56"
+                  "src": "1591:31:60"
                 }
               ]
             },
@@ -1995,20 +1995,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "run",
-            "nameLocation": "1568:3:56",
+            "nameLocation": "1568:3:60",
             "parameters": {
-              "id": 26009,
+              "id": 29643,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1571:2:56"
+              "src": "1571:2:60"
             },
             "returnParameters": {
-              "id": 26010,
+              "id": 29644,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "1581:0:56"
+              "src": "1581:0:60"
             },
-            "scope": 26018,
+            "scope": 29652,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
@@ -2018,46 +2018,46 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 25991,
+              "id": 29625,
               "name": "Deploy",
               "nameLocations": [
-                "1310:6:56"
+                "1310:6:60"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 25966,
-              "src": "1310:6:56"
+              "referencedDeclaration": 29600,
+              "src": "1310:6:60"
             },
-            "id": 25992,
+            "id": 29626,
             "nodeType": "InheritanceSpecifier",
-            "src": "1310:6:56"
+            "src": "1310:6:60"
           }
         ],
         "canonicalName": "DeployGoerli",
         "contractDependencies": [
-          26354,
-          26465,
-          26935
+          29988,
+          30099,
+          30569
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          26018,
-          25966,
-          108,
-          71,
-          56,
-          5761,
-          2344,
-          772
+          29652,
+          29600,
+          2400,
+          2363,
+          2348,
+          9353,
+          5870,
+          4298
         ],
         "name": "DeployGoerli",
-        "nameLocation": "1294:12:56",
-        "scope": 26019,
+        "nameLocation": "1294:12:60",
+        "scope": 29653,
         "usedErrors": [],
         "usedEvents": []
       }
     ],
     "license": "MIT"
   },
-  "id": 56
+  "id": 60
 }
