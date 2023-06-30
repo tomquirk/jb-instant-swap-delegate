@@ -1,0 +1,34 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "src/structs/DeployYoloDelegateData.sol",
+    "id": 32915,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "32:162:68",
+    "nodes": [
+      {
+        "id": 32914,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:68",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 68
+}

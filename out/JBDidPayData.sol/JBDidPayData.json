@@ -10,22 +10,22 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidPayData.sol",
-    "id": 29019,
+    "id": 31377,
     "exportedSymbols": {
       "JBDidPayData": [
-        29018
+        31376
       ],
       "JBTokenAmount": [
-        29310
+        31668
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:1456:39",
+    "src": "32:1456:41",
     "nodes": [
       {
-        "id": 28993,
+        "id": 31351,
         "nodeType": "PragmaDirective",
-        "src": "32:23:39",
+        "src": "32:23:41",
         "nodes": [],
         "literals": [
           "solidity",
@@ -35,40 +35,40 @@
         ]
       },
       {
-        "id": 28994,
+        "id": 31352,
         "nodeType": "ImportDirective",
-        "src": "57:29:39",
+        "src": "57:29:41",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBTokenAmount.sol",
         "file": "./JBTokenAmount.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 29019,
-        "sourceUnit": 29311,
+        "scope": 31377,
+        "sourceUnit": 31669,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 29018,
+        "id": 31376,
         "nodeType": "StructDefinition",
-        "src": "1212:275:39",
+        "src": "1212:275:41",
         "nodes": [],
         "canonicalName": "JBDidPayData",
         "documentation": {
-          "id": 28995,
+          "id": 31353,
           "nodeType": "StructuredDocumentation",
-          "src": "88:1123:39",
+          "src": "88:1123:41",
           "text": "@member payer The address from which the payment originated.\n@member projectId The ID of the project for which the payment was made.\n@member currentFundingCycleConfiguration The configuration of the funding cycle during which the payment is being made.\n@member amount The amount of the payment. Includes the token being paid, the value, the number of decimals included, and the currency of the amount.\n@member forwardedAmount The amount of the payment that is being sent to the delegate. Includes the token being paid, the value, the number of decimals included, and the currency of the amount.\n@member projectTokenCount The number of project tokens minted for the beneficiary.\n@member beneficiary The address to which the tokens were minted.\n@member preferClaimedTokens A flag indicating whether the request prefered to mint project tokens into the beneficiaries wallet rather than leaving them unclaimed. This is only possible if the project has an attached token contract.\n@member memo The memo that is being emitted alongside the payment.\n@member metadata Extra data to send to the delegate."
         },
         "members": [
           {
             "constant": false,
-            "id": 28997,
+            "id": 31355,
             "mutability": "mutable",
             "name": "payer",
-            "nameLocation": "1244:5:39",
+            "nameLocation": "1244:5:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1236:13:39",
+            "scope": 31376,
+            "src": "1236:13:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -76,10 +76,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 28996,
+              "id": 31354,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "1236:7:39",
+              "src": "1236:7:41",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -90,13 +90,13 @@
           },
           {
             "constant": false,
-            "id": 28999,
+            "id": 31357,
             "mutability": "mutable",
             "name": "projectId",
-            "nameLocation": "1261:9:39",
+            "nameLocation": "1261:9:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1253:17:39",
+            "scope": 31376,
+            "src": "1253:17:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -104,10 +104,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 28998,
+              "id": 31356,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "1253:7:39",
+              "src": "1253:7:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -117,13 +117,13 @@
           },
           {
             "constant": false,
-            "id": 29001,
+            "id": 31359,
             "mutability": "mutable",
             "name": "currentFundingCycleConfiguration",
-            "nameLocation": "1282:32:39",
+            "nameLocation": "1282:32:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1274:40:39",
+            "scope": 31376,
+            "src": "1274:40:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -131,10 +131,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 29000,
+              "id": 31358,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "1274:7:39",
+              "src": "1274:7:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -144,36 +144,36 @@
           },
           {
             "constant": false,
-            "id": 29004,
+            "id": 31362,
             "mutability": "mutable",
             "name": "amount",
-            "nameLocation": "1332:6:39",
+            "nameLocation": "1332:6:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1318:20:39",
+            "scope": 31376,
+            "src": "1318:20:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_JBTokenAmount_$29310_storage_ptr",
+              "typeIdentifier": "t_struct$_JBTokenAmount_$31668_storage_ptr",
               "typeString": "struct JBTokenAmount"
             },
             "typeName": {
-              "id": 29003,
+              "id": 31361,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 29002,
+                "id": 31360,
                 "name": "JBTokenAmount",
                 "nameLocations": [
-                  "1318:13:39"
+                  "1318:13:41"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 29310,
-                "src": "1318:13:39"
+                "referencedDeclaration": 31668,
+                "src": "1318:13:41"
               },
-              "referencedDeclaration": 29310,
-              "src": "1318:13:39",
+              "referencedDeclaration": 31668,
+              "src": "1318:13:41",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_JBTokenAmount_$29310_storage_ptr",
+                "typeIdentifier": "t_struct$_JBTokenAmount_$31668_storage_ptr",
                 "typeString": "struct JBTokenAmount"
               }
             },
@@ -181,36 +181,36 @@
           },
           {
             "constant": false,
-            "id": 29007,
+            "id": 31365,
             "mutability": "mutable",
             "name": "forwardedAmount",
-            "nameLocation": "1356:15:39",
+            "nameLocation": "1356:15:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1342:29:39",
+            "scope": 31376,
+            "src": "1342:29:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_struct$_JBTokenAmount_$29310_storage_ptr",
+              "typeIdentifier": "t_struct$_JBTokenAmount_$31668_storage_ptr",
               "typeString": "struct JBTokenAmount"
             },
             "typeName": {
-              "id": 29006,
+              "id": 31364,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 29005,
+                "id": 31363,
                 "name": "JBTokenAmount",
                 "nameLocations": [
-                  "1342:13:39"
+                  "1342:13:41"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 29310,
-                "src": "1342:13:39"
+                "referencedDeclaration": 31668,
+                "src": "1342:13:41"
               },
-              "referencedDeclaration": 29310,
-              "src": "1342:13:39",
+              "referencedDeclaration": 31668,
+              "src": "1342:13:41",
               "typeDescriptions": {
-                "typeIdentifier": "t_struct$_JBTokenAmount_$29310_storage_ptr",
+                "typeIdentifier": "t_struct$_JBTokenAmount_$31668_storage_ptr",
                 "typeString": "struct JBTokenAmount"
               }
             },
@@ -218,13 +218,13 @@
           },
           {
             "constant": false,
-            "id": 29009,
+            "id": 31367,
             "mutability": "mutable",
             "name": "projectTokenCount",
-            "nameLocation": "1383:17:39",
+            "nameLocation": "1383:17:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1375:25:39",
+            "scope": 31376,
+            "src": "1375:25:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -232,10 +232,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 29008,
+              "id": 31366,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "1375:7:39",
+              "src": "1375:7:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -245,13 +245,13 @@
           },
           {
             "constant": false,
-            "id": 29011,
+            "id": 31369,
             "mutability": "mutable",
             "name": "beneficiary",
-            "nameLocation": "1412:11:39",
+            "nameLocation": "1412:11:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1404:19:39",
+            "scope": 31376,
+            "src": "1404:19:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -259,10 +259,10 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 29010,
+              "id": 31368,
               "name": "address",
               "nodeType": "ElementaryTypeName",
-              "src": "1404:7:39",
+              "src": "1404:7:41",
               "stateMutability": "nonpayable",
               "typeDescriptions": {
                 "typeIdentifier": "t_address",
@@ -273,13 +273,13 @@
           },
           {
             "constant": false,
-            "id": 29013,
+            "id": 31371,
             "mutability": "mutable",
             "name": "preferClaimedTokens",
-            "nameLocation": "1432:19:39",
+            "nameLocation": "1432:19:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1427:24:39",
+            "scope": 31376,
+            "src": "1427:24:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -287,10 +287,10 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 29012,
+              "id": 31370,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
-              "src": "1427:4:39",
+              "src": "1427:4:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_bool",
                 "typeString": "bool"
@@ -300,13 +300,13 @@
           },
           {
             "constant": false,
-            "id": 29015,
+            "id": 31373,
             "mutability": "mutable",
             "name": "memo",
-            "nameLocation": "1462:4:39",
+            "nameLocation": "1462:4:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1455:11:39",
+            "scope": 31376,
+            "src": "1455:11:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -314,10 +314,10 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 29014,
+              "id": 31372,
               "name": "string",
               "nodeType": "ElementaryTypeName",
-              "src": "1455:6:39",
+              "src": "1455:6:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_string_storage_ptr",
                 "typeString": "string"
@@ -327,13 +327,13 @@
           },
           {
             "constant": false,
-            "id": 29017,
+            "id": 31375,
             "mutability": "mutable",
             "name": "metadata",
-            "nameLocation": "1476:8:39",
+            "nameLocation": "1476:8:41",
             "nodeType": "VariableDeclaration",
-            "scope": 29018,
-            "src": "1470:14:39",
+            "scope": 31376,
+            "src": "1470:14:41",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -341,10 +341,10 @@
               "typeString": "bytes"
             },
             "typeName": {
-              "id": 29016,
+              "id": 31374,
               "name": "bytes",
               "nodeType": "ElementaryTypeName",
-              "src": "1470:5:39",
+              "src": "1470:5:41",
               "typeDescriptions": {
                 "typeIdentifier": "t_bytes_storage_ptr",
                 "typeString": "bytes"
@@ -354,12 +354,12 @@
           }
         ],
         "name": "JBDidPayData",
-        "nameLocation": "1219:12:39",
-        "scope": 29019,
+        "nameLocation": "1219:12:41",
+        "scope": 31377,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 39
+  "id": 41
 }

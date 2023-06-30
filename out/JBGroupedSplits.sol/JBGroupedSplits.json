@@ -10,31 +10,31 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBGroupedSplits.sol",
-    "id": 29163,
+    "id": 31521,
     "exportedSymbols": {
       "IERC165": [
-        29544
+        31902
       ],
       "IJBSplitAllocator": [
-        28596
+        30954
       ],
       "JBGroupedSplits": [
-        29162
+        31520
       ],
       "JBSplit": [
-        29281
+        31639
       ],
       "JBSplitAllocationData": [
-        29299
+        31657
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:218:46",
+    "src": "32:218:48",
     "nodes": [
       {
-        "id": 29153,
+        "id": 31511,
         "nodeType": "PragmaDirective",
-        "src": "32:23:46",
+        "src": "32:23:48",
         "nodes": [],
         "literals": [
           "solidity",
@@ -44,40 +44,40 @@
         ]
       },
       {
-        "id": 29154,
+        "id": 31512,
         "nodeType": "ImportDirective",
-        "src": "57:23:46",
+        "src": "57:23:48",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBSplit.sol",
         "file": "./JBSplit.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 29163,
-        "sourceUnit": 29282,
+        "scope": 31521,
+        "sourceUnit": 31640,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 29162,
+        "id": 31520,
         "nodeType": "StructDefinition",
-        "src": "186:63:46",
+        "src": "186:63:48",
         "nodes": [],
         "canonicalName": "JBGroupedSplits",
         "documentation": {
-          "id": 29155,
+          "id": 31513,
           "nodeType": "StructuredDocumentation",
-          "src": "82:103:46",
+          "src": "82:103:48",
           "text": "@member group The group indentifier.\n@member splits The splits to associate with the group."
         },
         "members": [
           {
             "constant": false,
-            "id": 29157,
+            "id": 31515,
             "mutability": "mutable",
             "name": "group",
-            "nameLocation": "221:5:46",
+            "nameLocation": "221:5:48",
             "nodeType": "VariableDeclaration",
-            "scope": 29162,
-            "src": "213:13:46",
+            "scope": 31520,
+            "src": "213:13:48",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -85,10 +85,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 29156,
+              "id": 31514,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "213:7:46",
+              "src": "213:7:48",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -98,45 +98,45 @@
           },
           {
             "constant": false,
-            "id": 29161,
+            "id": 31519,
             "mutability": "mutable",
             "name": "splits",
-            "nameLocation": "240:6:46",
+            "nameLocation": "240:6:48",
             "nodeType": "VariableDeclaration",
-            "scope": 29162,
-            "src": "230:16:46",
+            "scope": 31520,
+            "src": "230:16:48",
             "stateVariable": false,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_JBSplit_$29281_storage_$dyn_storage_ptr",
+              "typeIdentifier": "t_array$_t_struct$_JBSplit_$31639_storage_$dyn_storage_ptr",
               "typeString": "struct JBSplit[]"
             },
             "typeName": {
               "baseType": {
-                "id": 29159,
+                "id": 31517,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 29158,
+                  "id": 31516,
                   "name": "JBSplit",
                   "nameLocations": [
-                    "230:7:46"
+                    "230:7:48"
                   ],
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 29281,
-                  "src": "230:7:46"
+                  "referencedDeclaration": 31639,
+                  "src": "230:7:48"
                 },
-                "referencedDeclaration": 29281,
-                "src": "230:7:46",
+                "referencedDeclaration": 31639,
+                "src": "230:7:48",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_JBSplit_$29281_storage_ptr",
+                  "typeIdentifier": "t_struct$_JBSplit_$31639_storage_ptr",
                   "typeString": "struct JBSplit"
                 }
               },
-              "id": 29160,
+              "id": 31518,
               "nodeType": "ArrayTypeName",
-              "src": "230:9:46",
+              "src": "230:9:48",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_JBSplit_$29281_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_JBSplit_$31639_storage_$dyn_storage_ptr",
                 "typeString": "struct JBSplit[]"
               }
             },
@@ -144,12 +144,12 @@
           }
         ],
         "name": "JBGroupedSplits",
-        "nameLocation": "193:15:46",
-        "scope": 29163,
+        "nameLocation": "193:15:48",
+        "scope": 31521,
         "visibility": "public"
       }
     ],
     "license": "MIT"
   },
-  "id": 46
+  "id": 48
 }
