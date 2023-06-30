@@ -54,17 +54,15 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
         weight = _data.weight;
         // Forward the default memo received from the payer.
         memo = _data.memo;
-        // Add `this` contract as a Pay Delegate so that it receives a `didPay` call. Don't send any funds to the delegate (keep all funds in the treasury).
+        // Add `this` contract as a Pay Delegate so that it receives a `didPay` call.
+        // Send all funds to the delegate (keep no funds in the treasury).
         delegateAllocations = new JBPayDelegateAllocation[](1);
-        delegateAllocations[0] = JBPayDelegateAllocation(this, 0);
+        delegateAllocations[0] = JBPayDelegateAllocation(
+            this,
+            _data.amount.value
+        );
     }
 
-    /// @notice This function gets called when the project's token holders redeem.
-    /// @dev Part of IJBFundingCycleDataSource.
-    /// @param _data Standard Juicebox project redemption data. See https://docs.juicebox.money/dev/api/data-structures/jbredeemparamsdata/.
-    /// @return reclaimAmount Amount to be reclaimed from the treasury. This is useful for optionally customizing how much funds from the treasury are dispursed per redemption.
-    /// @return memo A memo to be forwarded to the event. Useful for describing any new actions are being taken.
-    /// @return delegateAllocations Amount to be sent to delegates instead of being added to the beneficiary. Useful for auto-routing funds from a treasury as redemptions are sought.
     function redeemParams(
         JBRedeemParamsData calldata _data
     )
@@ -77,18 +75,7 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
             string memory memo,
             JBRedemptionDelegateAllocation[] memory delegateAllocations
         )
-    {
-        // Forward the default reclaimAmount received from the protocol.
-        reclaimAmount = _data.reclaimAmount.value;
-        // Forward the default memo received from the redeemer.
-        memo = _data.memo;
-        // Add `this` contract as a Redeem Delegate so that it receives a `didRedeem` call. Don't send any extra funds to the delegate.
-        delegateAllocations = new JBRedemptionDelegateAllocation[](1);
-        delegateAllocations[0] = JBRedemptionDelegateAllocation(
-            IJBRedemptionDelegate(address(0)),
-            0
-        );
-    }
+    {}
 
     /// @notice Indicates if this contract adheres to the specified interface.
     /// @dev See {IERC165-supportsInterface}.
@@ -117,17 +104,8 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
     }
 
     // Add a number to the array
-    function addCandidateProjectId(uint256 _projectId) public {
+    function addCandidateProjectId(uint256 _projectId) external {
         candidateProjectIds.push(_projectId);
-    }
-
-    // Get a random number from the array
-    function getRandomCandidateProjectId() internal view returns (uint256) {
-        require(candidateProjectIds.length > 0, "No candidate project IDs");
-        uint256 randomProjectIdIdx = uint256(
-            keccak256(abi.encodePacked(block.timestamp, block.basefee))
-        ) % candidateProjectIds.length;
-        return candidateProjectIds[randomProjectIdIdx];
     }
 
     /// @notice Received hook from the payment terminal after a payment.
@@ -144,7 +122,7 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
             ) || _data.projectId != projectId
         ) revert INVALID_PAYMENT_EVENT();
 
-        uint256 newProjectId = getRandomCandidateProjectId();
+        uint256 newProjectId = _getRandomCandidateProjectId();
         IJBPaymentTerminal newTerminal = directory.primaryTerminalOf(
             newProjectId,
             JBTokens.ETH
@@ -161,5 +139,16 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
         );
 
         _data;
+    }
+
+    // Internal functions //
+
+    // Get a random number from the array
+    function _getRandomCandidateProjectId() internal view returns (uint256) {
+        require(candidateProjectIds.length > 0, "No candidate project IDs");
+        uint256 randomProjectIdIdx = uint256(
+            keccak256(abi.encodePacked(block.timestamp, block.basefee))
+        ) % candidateProjectIds.length;
+        return candidateProjectIds[randomProjectIdIdx];
     }
 }
