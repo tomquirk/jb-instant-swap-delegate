@@ -5,6 +5,10 @@ import {Clones} from "@openzeppelin/contracts/proxy/Clones.sol";
 import {IJBDelegatesRegistry} from "@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol";
 import {IJBDirectory} from "@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol";
 import {YoloDelegate} from "./YoloDelegate.sol";
+import "@openzeppelin/contracts/interfaces/IERC20.sol";
+// import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
+// import "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
+import "./interfaces/IWETH9.sol";
 
 /// @notice A contract that deploys a delegate contract.
 contract YoloDelegateDeployer {
@@ -40,13 +44,24 @@ contract YoloDelegateDeployer {
     /// @return delegate The address of the newly deployed delegate.
     function deployDelegateFor(
         uint256 _projectId,
-        IJBDirectory _directory
+        IJBDirectory _directory,
+        IERC20 _token,
+        IWETH9 _weth,
+        // IUniswapV3Pool _pool,
+        uint256 _percentSwap
     ) external returns (YoloDelegate delegate) {
         // Deploy the delegate clone from the implementation.
         delegate = YoloDelegate(Clones.clone(address(delegateImplementation)));
 
         // Initialize it.
-        delegate.initialize(_projectId, _directory);
+        delegate.initialize(
+            _projectId,
+            _directory,
+            _token,
+            _weth,
+            // IUniswapV3Pool _pool,
+            _percentSwap
+        );
 
         // Add the delegate to the registry. Contract nonce starts at 1.
         // delegatesRegistry.addDelegate(address(this), ++_nonce);

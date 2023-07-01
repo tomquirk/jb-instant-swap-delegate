@@ -1,0 +1,20 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/YoloDelegateDeployer.t.sol",
+    "id": 32967,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "1845:0:55",
+    "nodes": []
+  },
+  "id": 55
+}

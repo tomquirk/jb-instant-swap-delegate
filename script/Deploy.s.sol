@@ -6,7 +6,7 @@ import {IJBDelegatesRegistry} from "@jbx-protocol/juice-delegates-registry/src/i
 import {IJBOperatorStore} from "@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBOperatorStore.sol";
 import {YoloDelegate} from "./../src/YoloDelegate.sol";
 import {YoloDelegateDeployer} from "./../src/YoloDelegateDeployer.sol";
-import {YoloDelegateProjectDeployer} from "./../src/YoloDelegateProjectDeployer.sol";
+// import {YoloDelegateProjectDeployer} from "./../src/YoloDelegateProjectDeployer.sol";
 
 abstract contract Deploy is Script {
     function _run(
