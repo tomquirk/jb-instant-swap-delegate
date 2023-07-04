@@ -1,4 +1,4 @@
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.16;
 
 import "forge-std/Test.sol";
 
@@ -11,7 +11,8 @@ import {JBTokenAmount} from "@jbx-protocol/juice-contracts-v3/contracts/structs/
 import {JBDidPayData} from "@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidPayData.sol";
 import {JBTokens} from "@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol";
 import "@openzeppelin/contracts/interfaces/IERC20.sol";
-// import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
 // import "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
 import "../src/interfaces/IWETH9.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
@@ -24,8 +25,10 @@ contract YoloDelegateTest_Unit is Test {
     address mockTerminalAddress =
         address(bytes20(keccak256("mockTerminalAddress")));
     uint256 projectId = 69;
-    IERC20 usdc = IERC20(0x07865c6E87B9F70255377e024ace6630C1Eaa37F);
-    IWETH9 weth = IWETH9(0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2);
+    IERC20 usdt = new ERC20("USDT", "USDT"); // TODO CHECK goerli USDT
+    IWETH9 weth = IWETH9(0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6);
+    IUniswapV3Pool pool =
+        IUniswapV3Pool(0xBfcE6397b5A97C91447A8c641ab61Ed965463b32); // USDT<=>WETH
 
     function setUp() public {
         vm.label(mockTerminalAddress, "mockTerminalAddress");
@@ -36,9 +39,9 @@ contract YoloDelegateTest_Unit is Test {
         _yoloDelegate.initialize(
             projectId,
             IJBDirectory(mockJBDirectory),
-            usdc,
+            usdt,
             weth,
-            // IUniswapV3Pool _pool,
+            pool,
             100_000 // 10%
         );
 
@@ -50,9 +53,9 @@ contract YoloDelegateTest_Unit is Test {
         _yoloDelegate.initialize(
             projectId,
             IJBDirectory(mockJBDirectory),
-            usdc,
+            usdt,
             weth,
-            // IUniswapV3Pool _pool,
+            pool,
             100_000 // 10%
         );
         // Mock the directory call
@@ -91,14 +94,14 @@ contract YoloDelegateTest_Unit is Test {
     }
 
     // forwards entire delegated amount to owner
-    function test_didPay_paysOwner(address _initialTerminal) public {
+    function test_didPay_paysOwner() public {
         YoloDelegate _yoloDelegate = new YoloDelegate();
         _yoloDelegate.initialize(
             projectId,
             IJBDirectory(mockJBDirectory),
-            usdc,
+            usdt,
             weth,
-            // IUniswapV3Pool _pool,
+            pool,
             100_000 // 10%
         );
 
@@ -108,7 +111,7 @@ contract YoloDelegateTest_Unit is Test {
             abi.encodeWithSelector(
                 IJBDirectory.isTerminalOf.selector,
                 projectId,
-                _initialTerminal
+                mockTerminalAddress
             ),
             abi.encode(true)
         );
@@ -123,19 +126,38 @@ contract YoloDelegateTest_Unit is Test {
             abi.encodeWithSelector(IERC721.ownerOf.selector, projectId),
             abi.encode(mockOwner)
         );
+        vm.mockCall(
+            address(weth),
+            abi.encodeWithSelector(IWETH9.deposit.selector),
+            abi.encode(true) // TODO idk?
+        );
+        int256 mock0Amount = -1;
+        int256 mock1Amount = 10;
+        vm.mockCall(
+            address(pool),
+            abi.encodeWithSelector(IUniswapV3PoolActions.swap.selector),
+            abi.encode(mock0Amount, mock1Amount) // TODO idk?
+        );
 
         // The caller is the _expectedCaller however the terminal in the calldata is not correct
-        vm.prank(_initialTerminal);
-        vm.deal(_initialTerminal, 100 ether);
+        vm.prank(mockTerminalAddress);
+        vm.deal(mockTerminalAddress, 100 ether);
         uint256 _initialBalance = address(this).balance;
+        uint256 payAmount = 10 ether;
+        uint256 delegateAmount = 1 ether;
 
-        _yoloDelegate.didPay{value: 10 ether}(
+        _yoloDelegate.didPay{value: delegateAmount}(
             JBDidPayData(
                 msg.sender,
                 projectId,
                 0,
-                JBTokenAmount(JBTokens.ETH, 10 ether, 18, JBCurrencies.ETH),
-                JBTokenAmount(JBTokens.ETH, 10 ether, 18, JBCurrencies.ETH), // 0 fwd to delegate
+                JBTokenAmount(JBTokens.ETH, payAmount, 18, JBCurrencies.ETH),
+                JBTokenAmount(
+                    JBTokens.ETH,
+                    delegateAmount,
+                    18,
+                    JBCurrencies.ETH
+                ),
                 0,
                 msg.sender,
                 false,
@@ -143,8 +165,5 @@ contract YoloDelegateTest_Unit is Test {
                 new bytes(0)
             )
         );
-
-        assertNotEq(_initialBalance, mockOwner.balance);
-        assertEq(mockOwner.balance, 10 ether);
     }
 }

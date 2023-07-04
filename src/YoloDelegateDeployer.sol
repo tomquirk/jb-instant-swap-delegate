@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.16;
 
 import {Clones} from "@openzeppelin/contracts/proxy/Clones.sol";
 import {IJBDelegatesRegistry} from "@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol";
 import {IJBDirectory} from "@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol";
 import {YoloDelegate} from "./YoloDelegate.sol";
 import "@openzeppelin/contracts/interfaces/IERC20.sol";
-// import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
+import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
 // import "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
 import "./interfaces/IWETH9.sol";
 
@@ -47,7 +47,7 @@ contract YoloDelegateDeployer {
         IJBDirectory _directory,
         IERC20 _token,
         IWETH9 _weth,
-        // IUniswapV3Pool _pool,
+        IUniswapV3Pool _pool,
         uint256 _percentSwap
     ) external returns (YoloDelegate delegate) {
         // Deploy the delegate clone from the implementation.
@@ -59,7 +59,7 @@ contract YoloDelegateDeployer {
             _directory,
             _token,
             _weth,
-            // IUniswapV3Pool _pool,
+            _pool,
             _percentSwap
         );
 

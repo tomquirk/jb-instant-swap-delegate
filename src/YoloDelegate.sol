@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.16;
 
 // import {mulDiv} from '@prb/math/src/Common.sol';
 import {IERC165} from "@openzeppelin/contracts/utils/introspection/IERC165.sol";
@@ -18,16 +18,25 @@ import {JBPayDelegateAllocation} from "@jbx-protocol/juice-contracts-v3/contract
 import {JBRedemptionDelegateAllocation} from "@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedemptionDelegateAllocation.sol";
 import "@paulrberg/contracts/math/PRBMath.sol";
 import "@openzeppelin/contracts/interfaces/IERC20.sol";
-// import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
-// import "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
+import "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol";
+import "@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol";
+// Import the Uniswap V3 interfaces
+import "@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol";
 import "./interfaces/IWETH9.sol";
 
 /// @notice A contract that is a Data Source, a Pay Delegate, and a Redemption Delegate.
 /// @dev This example implementation confines payments to an allow list.
-contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
+contract YoloDelegate is
+    IJBFundingCycleDataSource,
+    IJBPayDelegate,
+    IUniswapV3SwapCallback
+{
     error INVALID_PAYMENT_EVENT();
+    error UNAUTHORIZED();
 
     uint256 public constant MAX_PERCENT_SWAP = 1_000_000_000;
+    uint160 internal constant MAX_SQRT_RATIO =
+        1461446703485210103287273052203988822378723970342;
 
     /// @notice The Juicebox project ID this contract's functionality applies to.
     uint256 public projectId;
@@ -45,12 +54,34 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
      * @notice The uniswap pool corresponding to the project token-other token market
      *         (this should be carefully chosen liquidity wise)
      */
-    // IUniswapV3Pool public immutable pool;
+    IUniswapV3Pool public pool;
 
     /**
      * @notice The WETH contract
      */
     IWETH9 public weth;
+
+    /**
+     * @notice The Uniswap V3 pool callback (where token transfer should happen)
+     *
+     */
+    function uniswapV3SwapCallback(
+        int256 amount0Delta, // token
+        int256 amount1Delta, // weth
+        bytes calldata data
+    ) external override {
+        // Check if this is really a callback
+        if (msg.sender != address(pool)) revert UNAUTHORIZED();
+
+        // Assign 0 and 1 accordingly
+        uint256 _amountToSend = uint256(amount1Delta);
+
+        // Wrap the eth (=> weth)
+        weth.deposit{value: _amountToSend}();
+
+        // Transfer the weth to the pool.
+        weth.transfer(address(pool), _amountToSend);
+    }
 
     /// @notice This function gets called when the project receives a payment.
     /// @dev Part of IJBFundingCycleDataSource.
@@ -109,7 +140,7 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
         IJBDirectory _directory,
         IERC20 _token,
         IWETH9 _weth,
-        // IUniswapV3Pool _pool,
+        IUniswapV3Pool _pool,
         uint256 _percentSwap
     ) external {
         // Stop re-initialization.
@@ -120,7 +151,8 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
         directory = _directory;
 
         token = _token;
-        // pool = _pool;
+        weth = _weth;
+        pool = _pool;
         percentSwap = _percentSwap;
     }
 
@@ -138,9 +170,19 @@ contract YoloDelegate is IJBFundingCycleDataSource, IJBPayDelegate {
             ) || _data.projectId != projectId
         ) revert INVALID_PAYMENT_EVENT();
 
+        // // Specify the token addresses
+        uint256 ethAmount = _data.forwardedAmount.value;
+        weth.deposit{value: ethAmount}();
+
+        // Perform the swap
+        pool.swap(address(this), true, int256(ethAmount), 0, "");
+        // NOTE at this point, uniswapV3SwapCallback will be called.
+        // Code below will execute after uniswapV3SwapCallback. TODO i think
+
         IJBProjects jbProjects = directory.projects();
-        address payable owner = payable(jbProjects.ownerOf(projectId));
-        owner.transfer(msg.value);
+        address payable projectOwner = payable(jbProjects.ownerOf(projectId));
+        // // Transfer the purchased tokens to the caller
+        token.transfer(projectOwner, token.balanceOf(address(this)));
 
         _data;
     }
