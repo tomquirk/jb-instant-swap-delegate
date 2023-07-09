@@ -2,6 +2,8 @@
 
 A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
+👉 See it in action: https://goerli.juicebox.money/v2/p/1097
+
 ## Proof of functionality
 
 | Contract                                         | Network | Address                                      |
@@ -10,6 +12,8 @@ A Juicebox protocol `pay` delegate for automating treasury token swaps.
 | Example delegate (WETH => METH, JB project 1097) | goerli  | `0x7061a10560B1716a19C982E53c64e06C71beFA8c` |
 
 Example `pay` transaction using JBPaySplitDelegate: https://goerli.etherscan.io/tx/0xf5cfea90c5b9c96e9241b24d602d488ccfbe6ec12fc26a67c694ff701bcd27f9
+
+
 
 ### What
 
