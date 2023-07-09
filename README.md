@@ -1,4 +1,4 @@
-# JBPaySplitDelegate
+# JBPaySplitDelegate ↬
 
 A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
@@ -9,6 +9,8 @@ JBPaySplitDelegate is a `pay` delegate for the Juicebox protocol. It swaps a spe
 ### Why
 
 Juicebox project owners often need to keep some amount of ERC20's in their wallet for operational expenses. For example, a Juicebox project might need $USDC to pay its Infura bill, or $GRT to pay for TheGraph expenses.
+
+[Peel](https://juicebox.money/@peel) is one such project.
 
 Currently, this is a manual process. The project owner (often a multisig e.g. Safe) must reserve some ETH for themselves as a payout and submit a transaction to swap ETH for the desired token.
 
