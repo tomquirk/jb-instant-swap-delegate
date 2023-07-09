@@ -184,6 +184,15 @@ contract JBPaySplitDelegate is
         _data;
     }
 
+    function setPool(IUniswapV3Pool _pool) external {
+        IJBProjects jbProjects = directory.projects();
+
+        if (msg.sender != jbProjects.ownerOf(projectId)) revert UNAUTHORIZED();
+        if (_pool.token0() != address(weth)) revert INVALID_POOL();
+
+        pool = _pool;
+    }
+
     /// @notice Indicates if this contract adheres to the specified interface.
     /// @dev See {IERC165-supportsInterface}.
     /// @param _interfaceId The ID of the interface to check for adherence to.

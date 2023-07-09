@@ -109,16 +109,16 @@
     }
   ],
   "bytecode": {
-    "object": "0x60c060405234801561001057600080fd5b506040516103b03803806103b083398101604081905261002f9161005e565b6001600160a01b039182166080521660a052610098565b6001600160a01b038116811461005b57600080fd5b50565b6000806040838503121561007157600080fd5b825161007c81610046565b602084015190925061008d81610046565b809150509250929050565b60805160a0516102ef6100c1600039600060a1015260008181604b015260ca01526102ef6000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063a5fbd44a14610046578063caadcc9214610089578063d574ff041461009c575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f35b61006d610097366004610271565b6100c3565b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b60006100ee7f00000000000000000000000000000000000000000000000000000000000000006101bb565b60405163e37259e960e01b8152600481018790526001600160a01b0386811660248301528581166044830152606482018590529192509082169063e37259e990608401600060405180830381600087803b15801561014b57600080fd5b505af115801561015f573d6000803e3d6000fd5b5050604080518881526001600160a01b03858116602083015288168183015233606082015290517fbd318535ef41d837ffbebcb4725bbc083c0b01b23e236f2e4c3bcd8db2644a729350908190036080019150a1949350505050565b6000763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c176000526e5af43d82803e903d91602b57fd5bf38260781b17602052603760096000f090506001600160a01b0381166102545760405162461bcd60e51b8152602060048201526016602482015275115490cc4c4d8dce8818dc99585d194819985a5b195960521b604482015260640160405180910390fd5b919050565b6001600160a01b038116811461026e57600080fd5b50565b6000806000806080858703121561028757600080fd5b84359350602085013561029981610259565b925060408501356102a981610259565b939692955092936060013592505056fea2646970667358221220f5b0cd6987a48e390d1ffba59ea15bf9b909a3f73521065e7480deb7c914e6b664736f6c63430008140033",
-    "sourceMap": "704:2023:64:-:0;;;1487:232;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;-1:-1:-1;;;;;1616:48:64;;;;;1674:38;;;704:2023;;14:151:68;-1:-1:-1;;;;;109:31:68;;99:42;;89:70;;155:1;152;145:12;89:70;14:151;:::o;170:483::-;307:6;315;368:2;356:9;347:7;343:23;339:32;336:52;;;384:1;381;374:12;336:52;416:9;410:16;435:51;480:5;435:51;:::i;:::-;555:2;540:18;;534:25;505:5;;-1:-1:-1;568:53:68;534:25;568:53;:::i;:::-;640:7;630:17;;;170:483;;;;;:::o;:::-;704:2023:64;;;;;;;;;;;;;;;;;;;;;;;",
+    "object": "0x60c060405234801561001057600080fd5b506040516103b03803806103b083398101604081905261002f9161005e565b6001600160a01b039182166080521660a052610098565b6001600160a01b038116811461005b57600080fd5b50565b6000806040838503121561007157600080fd5b825161007c81610046565b602084015190925061008d81610046565b809150509250929050565b60805160a0516102ef6100c1600039600060a1015260008181604b015260ca01526102ef6000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063a5fbd44a14610046578063caadcc9214610089578063d574ff041461009c575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f35b61006d610097366004610271565b6100c3565b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b60006100ee7f00000000000000000000000000000000000000000000000000000000000000006101bb565b60405163e37259e960e01b8152600481018790526001600160a01b0386811660248301528581166044830152606482018590529192509082169063e37259e990608401600060405180830381600087803b15801561014b57600080fd5b505af115801561015f573d6000803e3d6000fd5b5050604080518881526001600160a01b03858116602083015288168183015233606082015290517fbd318535ef41d837ffbebcb4725bbc083c0b01b23e236f2e4c3bcd8db2644a729350908190036080019150a1949350505050565b6000763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c176000526e5af43d82803e903d91602b57fd5bf38260781b17602052603760096000f090506001600160a01b0381166102545760405162461bcd60e51b8152602060048201526016602482015275115490cc4c4d8dce8818dc99585d194819985a5b195960521b604482015260640160405180910390fd5b919050565b6001600160a01b038116811461026e57600080fd5b50565b6000806000806080858703121561028757600080fd5b84359350602085013561029981610259565b925060408501356102a981610259565b939692955092936060013592505056fea2646970667358221220637934b30010f5a36bdecae4174484aa32e8c19a98cc8c517bf60e1ae4196c8e64736f6c63430008140033",
+    "sourceMap": "704:2023:64:-:0;;;1487:232;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;-1:-1:-1;;;;;1616:48:64;;;;;1674:38;;;704:2023;;14:151:67;-1:-1:-1;;;;;109:31:67;;99:42;;89:70;;155:1;152;145:12;89:70;14:151;:::o;170:483::-;307:6;315;368:2;356:9;347:7;343:23;339:32;336:52;;;384:1;381;374:12;336:52;416:9;410:16;435:51;480:5;435:51;:::i;:::-;555:2;540:18;;534:25;505:5;;-1:-1:-1;568:53:67;534:25;568:53;:::i;:::-;640:7;630:17;;;170:483;;;;;:::o;:::-;704:2023:64;;;;;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063a5fbd44a14610046578063caadcc9214610089578063d574ff041461009c575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f35b61006d610097366004610271565b6100c3565b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b60006100ee7f00000000000000000000000000000000000000000000000000000000000000006101bb565b60405163e37259e960e01b8152600481018790526001600160a01b0386811660248301528581166044830152606482018590529192509082169063e37259e990608401600060405180830381600087803b15801561014b57600080fd5b505af115801561015f573d6000803e3d6000fd5b5050604080518881526001600160a01b03858116602083015288168183015233606082015290517fbd318535ef41d837ffbebcb4725bbc083c0b01b23e236f2e4c3bcd8db2644a729350908190036080019150a1949350505050565b6000763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c176000526e5af43d82803e903d91602b57fd5bf38260781b17602052603760096000f090506001600160a01b0381166102545760405162461bcd60e51b8152602060048201526016602482015275115490cc4c4d8dce8818dc99585d194819985a5b195960521b604482015260640160405180910390fd5b919050565b6001600160a01b038116811461026e57600080fd5b50565b6000806000806080858703121561028757600080fd5b84359350602085013561029981610259565b925060408501356102a981610259565b939692955092936060013592505056fea2646970667358221220f5b0cd6987a48e390d1ffba59ea15bf9b909a3f73521065e7480deb7c914e6b664736f6c63430008140033",
-    "sourceMap": "704:2023:64:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1086:58;;;;;;;;-1:-1:-1;;;;;206:32:68;;;188:51;;176:2;161:18;1086:58:64;;;;;;;2027:698;;;;;;:::i;:::-;;:::i;1237:55::-;;;;;2027:698;2199:27;2343:45;2364:22;2343:12;:45::i;:::-;2435:64;;-1:-1:-1;;;2435:64:64;;;;;1519:25:68;;;-1:-1:-1;;;;;1618:15:68;;;1598:18;;;1591:43;1670:15;;;1650:18;;;1643:43;1702:18;;;1695:34;;;2300:98:64;;-1:-1:-1;2435:19:64;;;;;;1491::68;;2435:64:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;2656:62:64;;;2021:25:68;;;-1:-1:-1;;;;;2120:15:68;;;2115:2;2100:18;;2093:43;2172:15;;2152:18;;;2145:43;2707:10:64;2219:2:68;2204:18;;2197:43;2656:62:64;;;;-1:-1:-1;2656:62:64;;;;2008:3:68;2656:62:64;;-1:-1:-1;2656:62:64;2027:698;;;;;;:::o;973:759:44:-;1030:16;1362:48;1344:14;1338:4;1334:25;1328:4;1324:36;1321:90;1315:4;1308:104;1569:32;1552:14;1546:4;1542:25;1539:63;1533:4;1526:77;1644:4;1638;1635:1;1628:21;1616:33;-1:-1:-1;;;;;;1676:22:44;;1668:57;;;;-1:-1:-1;;;1668:57:44;;2453:2:68;1668:57:44;;;2435:21:68;2492:2;2472:18;;;2465:30;-1:-1:-1;;;2511:18:68;;;2504:52;2573:18;;1668:57:44;;;;;;;;973:759;;;:::o;250:145:68:-;-1:-1:-1;;;;;339:31:68;;329:42;;319:70;;385:1;382;375:12;319:70;250:145;:::o;400:599::-;532:6;540;548;556;609:3;597:9;588:7;584:23;580:33;577:53;;;626:1;623;616:12;577:53;662:9;649:23;639:33;;722:2;711:9;707:18;694:32;735:45;774:5;735:45;:::i;:::-;799:5;-1:-1:-1;856:2:68;841:18;;828:32;869:47;828:32;869:47;:::i;:::-;400:599;;;;-1:-1:-1;935:7:68;;989:2;974:18;961:32;;-1:-1:-1;;400:599:68:o",
+    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c8063a5fbd44a14610046578063caadcc9214610089578063d574ff041461009c575b600080fd5b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b03909116815260200160405180910390f35b61006d610097366004610271565b6100c3565b61006d7f000000000000000000000000000000000000000000000000000000000000000081565b60006100ee7f00000000000000000000000000000000000000000000000000000000000000006101bb565b60405163e37259e960e01b8152600481018790526001600160a01b0386811660248301528581166044830152606482018590529192509082169063e37259e990608401600060405180830381600087803b15801561014b57600080fd5b505af115801561015f573d6000803e3d6000fd5b5050604080518881526001600160a01b03858116602083015288168183015233606082015290517fbd318535ef41d837ffbebcb4725bbc083c0b01b23e236f2e4c3bcd8db2644a729350908190036080019150a1949350505050565b6000763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c176000526e5af43d82803e903d91602b57fd5bf38260781b17602052603760096000f090506001600160a01b0381166102545760405162461bcd60e51b8152602060048201526016602482015275115490cc4c4d8dce8818dc99585d194819985a5b195960521b604482015260640160405180910390fd5b919050565b6001600160a01b038116811461026e57600080fd5b50565b6000806000806080858703121561028757600080fd5b84359350602085013561029981610259565b925060408501356102a981610259565b939692955092936060013592505056fea2646970667358221220637934b30010f5a36bdecae4174484aa32e8c19a98cc8c517bf60e1ae4196c8e64736f6c63430008140033",
+    "sourceMap": "704:2023:64:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1086:58;;;;;;;;-1:-1:-1;;;;;206:32:67;;;188:51;;176:2;161:18;1086:58:64;;;;;;;2027:698;;;;;;:::i;:::-;;:::i;1237:55::-;;;;;2027:698;2199:27;2343:45;2364:22;2343:12;:45::i;:::-;2435:64;;-1:-1:-1;;;2435:64:64;;;;;1519:25:67;;;-1:-1:-1;;;;;1618:15:67;;;1598:18;;;1591:43;1670:15;;;1650:18;;;1643:43;1702:18;;;1695:34;;;2300:98:64;;-1:-1:-1;2435:19:64;;;;;;1491::67;;2435:64:64;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;2656:62:64;;;2021:25:67;;;-1:-1:-1;;;;;2120:15:67;;;2115:2;2100:18;;2093:43;2172:15;;2152:18;;;2145:43;2707:10:64;2219:2:67;2204:18;;2197:43;2656:62:64;;;;-1:-1:-1;2656:62:64;;;;2008:3:67;2656:62:64;;-1:-1:-1;2656:62:64;2027:698;;;;;;:::o;973:759:44:-;1030:16;1362:48;1344:14;1338:4;1334:25;1328:4;1324:36;1321:90;1315:4;1308:104;1569:32;1552:14;1546:4;1542:25;1539:63;1533:4;1526:77;1644:4;1638;1635:1;1628:21;1616:33;-1:-1:-1;;;;;;1676:22:44;;1668:57;;;;-1:-1:-1;;;1668:57:44;;2453:2:67;1668:57:44;;;2435:21:67;2492:2;2472:18;;;2465:30;-1:-1:-1;;;2511:18:67;;;2504:52;2573:18;;1668:57:44;;;;;;;;973:759;;;:::o;250:145:67:-;-1:-1:-1;;;;;339:31:67;;329:42;;319:70;;385:1;382;375:12;319:70;250:145;:::o;400:599::-;532:6;540;548;556;609:3;597:9;588:7;584:23;580:33;577:53;;;626:1;623;616:12;577:53;662:9;649:23;639:33;;722:2;711:9;707:18;694:32;735:45;774:5;735:45;:::i;:::-;799:5;-1:-1:-1;856:2:67;841:18;;828:32;869:47;828:32;869:47;:::i;:::-;400:599;;;;-1:-1:-1;935:7:67;;989:2;974:18;961:32;;-1:-1:-1;;400:599:67:o",
     "linkReferences": {},
     "immutableReferences": {
-      "34040": [
+      "34081": [
         {
           "start": 75,
           "length": 32
@@ -128,7 +128,7 @@
           "length": 32
         }
       ],
-      "34044": [
+      "34085": [
         {
           "start": 161,
           "length": 32
@@ -141,7 +141,7 @@
     "delegatesRegistry()": "d574ff04",
     "deployDelegateFor(uint256,address,address,uint256)": "caadcc92"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"_delegateImplementation\",\"type\":\"address\"},{\"internalType\":\"contract IJBDelegatesRegistry\",\"name\":\"_delegatesRegistry\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"projectId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"delegate\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"contract IJBDirectory\",\"name\":\"directory\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"}],\"name\":\"DelegateDeployed\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"delegateImplementation\",\"outputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"delegatesRegistry\",\"outputs\":[{\"internalType\":\"contract IJBDelegatesRegistry\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_projectId\",\"type\":\"uint256\"},{\"internalType\":\"contract IJBDirectory\",\"name\":\"_directory\",\"type\":\"address\"},{\"internalType\":\"contract IUniswapV3Pool\",\"name\":\"_pool\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_percentSwap\",\"type\":\"uint256\"}],\"name\":\"deployDelegateFor\",\"outputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"delegate\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_delegateImplementation\":\"The delegate implementation that will be cloned.\",\"_delegatesRegistry\":\"A contract that stores references to delegate deployer contracts.\"}},\"deployDelegateFor(uint256,address,address,uint256)\":{\"params\":{\"_directory\":\"The directory of terminals and controllers for projects.\",\"_projectId\":\"The ID of the project for which the delegate will be deployed.\"},\"returns\":{\"delegate\":\"The address of the newly deployed delegate.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"delegateImplementation()\":{\"notice\":\"An implementation of the Delegate being deployed.\"},\"delegatesRegistry()\":{\"notice\":\"A contract that stores references to deployer contracts of delegates.\"},\"deployDelegateFor(uint256,address,address,uint256)\":{\"notice\":\"Deploys a delegate for the provided project.\"}},\"notice\":\"A contract that deploys a delegate contract.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/JBPaySplitDelegateDeployer.sol\":\"JBPaySplitDelegateDeployer\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":@prb/=node_modules/@prb/\",\":@uniswap/=node_modules/@uniswap/\",\":base64-sol/=node_modules/base64-sol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/enums/JBBallotState.sol\":{\"keccak256\":\"0x891fcac63470398b3a11239da7feba6b07d640809fcefd2404303b823d7378f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e6adfceaf284b669a8c1cbcf2da7f18ab31a2d1066f9db8bc914349e7401de7\",\"dweb:/ipfs/QmXLHVRPPZdXUkgAHQbHUtEzAvCJk1P6rJ7wrwfTcfW6fw\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol\":{\"keccak256\":\"0x715321646db00514d1355ed43c40cd3f01e94959552fd07797b315d9c49cdb1d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c34c9e1c727ffc63dd42fb6e6ffb3116c8ba15d6a322a300f10f29478974768d\",\"dweb:/ipfs/QmYToaGrbMyyWAuyepYcDd8M6KcmosY8AWhT3uJmPM6Pvy\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleBallot.sol\":{\"keccak256\":\"0x49553a56209237846bc400cf27f260824a6bd06fd8094a7eb5abb9de75779598\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://559372746f94f28b385bc336df263f583dca5377350645c0b28110b083bdb41a\",\"dweb:/ipfs/QmeQRYqPjXBQCtMKXSFtHVD2ewEPoUAPDxLh4oWTRSKbmx\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleDataSource.sol\":{\"keccak256\":\"0xa424abc146a61b69db83e511c064492da6fab6d8226e13d1580bc9fbc50d6738\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://59c695ee79b9cd5447b83acb07c92627d747c6e6901e9145671c7ff12602f4c8\",\"dweb:/ipfs/Qma43bK5qkRkcWP9KNwfZ54WuMJsT2TAYfMXkdT1R7vRoK\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleStore.sol\":{\"keccak256\":\"0xaead823851433be0c2ddc8f8086813e6cd647de3a1bc0f7570a5d6b38c378b5a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f11fd52ba9ef67b40811d8a2298ae8b69447d2565b3f1069cbb8f0f13bc65e7\",\"dweb:/ipfs/QmVbBzpTxZWar9xvj6x1vW91hJDv2iPVq7aG6waMxaHUPQ\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBPayDelegate.sol\":{\"keccak256\":\"0xa797de18b69eceba117e1f0b3810cf3cc2d2791417d580a5bdc510d1b868ab26\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://36b214c091c62c54d22cbedb606c29919cb56f1c29acf9c397c948247a29dcc0\",\"dweb:/ipfs/QmSzxHs8xNFqNfxZb1igvPHk7vXA5vUsGQ6AMfJ8jx8Ktu\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBPaymentTerminal.sol\":{\"keccak256\":\"0xb7826f5ed609359ce322c09e83236c47ba385df1c3cad3607e56fd0a2e00eee2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cbb0de0e73f73a04fcfc8f08cab3588b6d608cf5268af737cff6a530f6062c95\",\"dweb:/ipfs/QmPGb8aEbZNHNnrCvuGH52RLvV3kjL3agxQiFrjHoLHaup\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBProjects.sol\":{\"keccak256\":\"0x7cfc021d0bd7e73b1ba8f4845d7d35e3419d6a14d3d25ca3a8010e7f91062fe4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff265e13e60da56b93104260ed69ab01153437ec2af9d453781f22ca295eaef9\",\"dweb:/ipfs/QmfGCSLX2Wy26ojf4U12udsdtjSSacbLcZGwCjTw7MjWF8\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBRedemptionDelegate.sol\":{\"keccak256\":\"0x172d2c0be65e72e54f71ae521907067f0fa30e8ca05c4f88826903208aa437e2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://266a32bd8feea10051a4e243e14692c62e99de7048cda2f541998b4cc64cbd51\",\"dweb:/ipfs/QmPfqsbSZdpQee4WbisK9ZnZRrXbUVvSpbfnrEKGfjzz9N\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":{\"keccak256\":\"0xd267fd8ca7c21c2c71794acdb9a98314c33a35fc559e0bf0897a6686d196d174\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa7053d4300ed1374f3f993e6e2163d0a05ee780e4e99eb007b55eabc93c724e\",\"dweb:/ipfs/QmYZAUn7VCwqpDWYZNCXLNYMRQpD334YgPRiGCfxQApzuT\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol\":{\"keccak256\":\"0xecf82992f7b827766aa55f16872517a646521eef414d8cc9786617ea377e5463\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4bb334faa6d2d071473bfcd7efeb5bfa068c340600c204651d59a94be4e4b147\",\"dweb:/ipfs/QmaKgSCvDNgQ6dh2gZfQ9VhkPuRCoACv8e7sd1K9VFikix\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidPayData.sol\":{\"keccak256\":\"0xf3c664309b37790f16047ae97b0459889ae0242dfcde7fc8902c8d10c7f8e6b6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ea74b762604ffa0e45181d8ec31b130198546014f6360d15076af79952bc5874\",\"dweb:/ipfs/QmdukMbucvU75BpK4TsYKoqjpQ2Nhs9yjFVzcKGkG3SpSV\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidRedeemData.sol\":{\"keccak256\":\"0xe2c401f39723a7ce915b8bef328744c66daaf57460843964b941456c2258a412\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c3bddd802ff895aa54f047d2385c7c253f9e0cd5b23d4d84439c1590e7e66ccb\",\"dweb:/ipfs/QmXdSDWgEWMtJDqMhHrBCZnBM4qETXRPteB1wEGZBRxuUb\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycle.sol\":{\"keccak256\":\"0xcdd3ac9b6fa67e62ada88d09b73bc35ade1cd77d43db712289266a788928b4c2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8ba0be407022bbeb0e9272884653209ee262b8a4e00ffbba1298c3b119feccba\",\"dweb:/ipfs/QmbtLQzSN3hut4jYVsYPiYDfRkDdGkZmTWBnV2wJKrdM3K\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycleData.sol\":{\"keccak256\":\"0x2aa6368bf4dfc5797e8b02a978293de0c777fae2658de2c825a103587240f3b0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2d7a980ab9b67ad1569d4407b747903cab668a332214117f5ad44feb50af0a3a\",\"dweb:/ipfs/QmSuEzmrmDSihrTKYCk8miq7VQi7WD6jmQePkjDyzt7UpC\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBPayDelegateAllocation.sol\":{\"keccak256\":\"0xb4e558dc62231d89e9b48998012577d22c3e52b58e23401f22d9096827f6ea0c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b6617a7479709d2a68fbc6686c9087fd7339ffcbb4823010287eb2ad979f23dd\",\"dweb:/ipfs/QmVT66SXpY9h5sD8nJq7VALbfWdeHwUxAeBPymaHg1TMNM\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBPayParamsData.sol\":{\"keccak256\":\"0x05007b26feb5d9a026b883c6d734a341b5a49ef7b8215fb40507882e2c14e24d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://52ef2d3c61f06243aead9afcb043299f362ff9f7b259386a88c4454b429436c0\",\"dweb:/ipfs/QmVpCJ1NyBGBDgNQpmojhjPmqx2gryzopGLgawHE26mwPr\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBProjectMetadata.sol\":{\"keccak256\":\"0x90ad7b1014c0a9f945fe7a2efde9d5de41e40574fa27969070b1d2ff52033ea0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1fafc65a9fd74605b7d6c6f0a92b3237a8e3efdd160affb8c117bad00dcf9494\",\"dweb:/ipfs/QmQkcVt11WLqrxHVrcDCF6dNxzg2kKHEghAgSbfLF6CHkt\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedeemParamsData.sol\":{\"keccak256\":\"0x5065a824ebb34952f016c6dfa47e8a7ac28427b719470e74a41022c11ace7788\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0006b9aeb387a8866d9f619de374d7618159e6a25d562f2c8fca984e2a4b9fea\",\"dweb:/ipfs/QmUfWBMHx6CxN921vM5RktJTP5AYEA3v2xpnMX5LGubhBC\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedemptionDelegateAllocation.sol\":{\"keccak256\":\"0x10c29d33dd0d875a0d4692a2b9a9355c2ebf433cc06a9a60253d4366b60d4d31\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://76614755cf61b78b3d3263ddcbf7c7146986374e4cdf5cc2abb67c523d957142\",\"dweb:/ipfs/QmVNGDmTCcfYxgbA83yURstmAU7vtAtjTh9zNFRwKMmTH1\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBTokenAmount.sol\":{\"keccak256\":\"0x4a778e779ba257ba5638c5469e07a4d21b55a3128d56db5a0fdfacb1f3301c51\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fdb8302e06c5b4e1e91d204ed735d8d5db5bb3648200c144d7c545678010a44d\",\"dweb:/ipfs/QmTpffbt3FShkk8LDjsonVGnecbbNMUL8QHYQM7AFcMa54\"]},\"node_modules/@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol\":{\"keccak256\":\"0x5559fcd3983e7572b15d9a00d15c031aad22078f349760729893664bc2013c4c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fde585c6320af838560bfa4a6ecfd6c742859c73dac4a35dde3cd68a55121979\",\"dweb:/ipfs/QmSq7owwxRXBq4nghTwhMRJ6pPkxMXpsVHCCCeAWVf6cXw\"]},\"node_modules/@openzeppelin/contracts/interfaces/IERC20.sol\":{\"keccak256\":\"0x6ebf1944ab804b8660eb6fc52f9fe84588cee01c2566a69023e59497e7d27f45\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2900536cdadec954ced8789a9d1ed4b5e640029e1424e91fd5b88026486f4d45\",\"dweb:/ipfs/QmUMUX7CuYoiHvFkhifqtXGaciw2wnm4t9sAoPzETZ3Gbq\"]},\"node_modules/@openzeppelin/contracts/proxy/Clones.sol\":{\"keccak256\":\"0x01f055f5c26ba25d7f83e9aa9ba877fbea4d0bf22227de046ea67494bc932999\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e1306add0c9388918d04c45f6acae3551f019ebf8a77e6cc1c0958316ce1c1eb\",\"dweb:/ipfs/QmR4KHkcfP65RfZtH8TcC7rSdCoWk2Dnog6fhzzjLad8Aa\"]},\"node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5\",\"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53\"]},\"node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x5bce51e11f7d194b79ea59fe00c9e8de9fa2c5530124960f29a24d4c740a3266\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e66dfde185df46104c11bc89d08fa0760737aa59a2b8546a656473d810a8ea4\",\"dweb:/ipfs/QmXvyqtXPaPss2PD7eqPoSao5Szm2n6UMoiG8TZZDjmChR\"]},\"node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]},\"node_modules/@paulrberg/contracts/math/PRBMath.sol\":{\"keccak256\":\"0x42821345981bc0434a90ba2268a2f5278dfe9e38166981d72fc7f3b776a29495\",\"license\":\"Unlicense\",\"urls\":[\"bzz-raw://92f28eea1e22d4e7998617483eef42d89eb97b364414cf41041c86aa633d3b47\",\"dweb:/ipfs/QmT5entVZFjbb3ZGZZvNAGqtwerCgwjCfN1Qmvf8jKPBXj\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol\":{\"keccak256\":\"0xfe6113d518466cd6652c85b111e01f33eb62157f49ae5ed7d5a3947a2044adb1\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://1c42b9e6f5902ac38dd43e25750939baa7e0c1425dc75afd717c4412731065d5\",\"dweb:/ipfs/QmWaoacnzsucTvBME2o7YgZBZMhaHv7fkj83htHMVWJKWh\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol\":{\"keccak256\":\"0x3f485fb1a44e8fbeadefb5da07d66edab3cfe809f0ac4074b1e54e3eb3c4cf69\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://095ce0626b41318c772b3ebf19d548282607f6a8f3d6c41c13edfbd5370c8652\",\"dweb:/ipfs/QmVDZfJJ89UUCE1hMyzqpkZAtQ8jUsBgZNE5AMRG7RzRFS\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol\":{\"keccak256\":\"0x9453dd0e7442188667d01d9b65de3f1e14e9511ff3e303179a15f6fc267f7634\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://982f4328f956c3e60e67501e759eb292ac487f76460c774c50e9ae4fcc92aae5\",\"dweb:/ipfs/QmRnzEDsaqtd9PJEVcgQi7p5aV5pMSvRUoGZJAdwFUJxgZ\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol\":{\"keccak256\":\"0xe603ac5b17ecdee73ba2b27efdf386c257a19c14206e87eee77e2017b742d9e5\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8febc9bdb399a4d94bb89f5377732652e2400e4a8dee808201ade6848f9004e7\",\"dweb:/ipfs/QmaKDqYYFU4d2W2iN77aDHptfbFmYZRrMYXHeGpJmM8C1c\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol\":{\"keccak256\":\"0x8071514d0fe5d17d6fbd31c191cdfb703031c24e0ece3621d88ab10e871375cd\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://d0b571930cc7488b1d546a7e9cea7c52d8b3c4e207da657ed0e0db7343b8cd03\",\"dweb:/ipfs/QmaGK6vVwB95QSTR1XMYvrh7ivYAYZxi3fD7v6VMA4jZ39\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol\":{\"keccak256\":\"0xf6e5d2cd1139c4c276bdbc8e1d2b256e456c866a91f1b868da265c6d2685c3f7\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://b99c8c9ae8e27ee6559e5866bea82cbc9ffc8247f8d15b7422a4deb287d4d047\",\"dweb:/ipfs/QmfL8gaqt3ffAnm6nVj5ksuNpLygXuL3xq5VBqrkwC2JJ3\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol\":{\"keccak256\":\"0x759b78a2918af9e99e246dc3af084f654e48ef32bb4e4cb8a966aa3dcaece235\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://64144fb96e1c7fdba87305acadb98a198d26a3d46c097cb3a666e567f6f29735\",\"dweb:/ipfs/QmUnWVwN9FKB9uV5Pr8YfLpWZnYM2DENnRMaadZ492JS9u\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol\":{\"keccak256\":\"0x852dc1f5df7dcf7f11e7bb3eed79f0cea72ad4b25f6a9d2c35aafb48925fd49f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://ed63907c38ff36b0e22bc9ffc53e791ea74f0d4f0e7c257fdfb5aaf8825b1f0f\",\"dweb:/ipfs/QmSQrckghEjs6HVsA5GVgpNpZWvTXMY5eQLF7cN6deFeEg\"]},\"node_modules/@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol\":{\"keccak256\":\"0x9bfaf1feb32814623e627ab70f2409760b15d95f1f9b058e2b3399a8bb732975\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://a8a2c3e55965b61bcd91993d8e1d5d34b8b8a63e0fdfce87a85f6af92526fd53\",\"dweb:/ipfs/QmQj2CSCSwqDSU4KMNWxGsN2336Cy64WgpV1X1EHXNZWxM\"]},\"node_modules/prb-math/contracts/PRBMath.sol\":{\"keccak256\":\"0xed164c95012964f5e125b5d2b2d00471a4bdee4def618cd1fcf341d196011b61\",\"license\":\"Unlicense\",\"urls\":[\"bzz-raw://3ba3ad78675323279adfc09038eaa14f4cde3f3173e5d2d60b9c30bf7099aa7b\",\"dweb:/ipfs/QmV56KGJZQG681hwd7JQDv3KjAa9JSGF88ShGx8YBCuvcR\"]},\"src/JBPaySplitDelegate.sol\":{\"keccak256\":\"0x22bd7afbb70b9119515552945e8fe9fd689c3a31b377b950e566e1e235b1b4ab\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://13b30cf7f3712cc6b60c61b8459ef009a570959fa23e91870c3058eca56f9444\",\"dweb:/ipfs/QmZfrqg85JLH1ZxP1AZZfKPzyK8RSMPXqZKbrkNgkEjvW7\"]},\"src/JBPaySplitDelegateDeployer.sol\":{\"keccak256\":\"0xf0c6c6b25035c9d19bbe2cdd9e00c87a9be1efc241a5b6aa006a1c0784499993\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e9cb04fdf0ae7f66685c939b353e9cb2efb56966c9f7d6cbe08c73a64678ca5f\",\"dweb:/ipfs/QmREH1fFytnEs9Z6TJJa9ZBU86m7mRvsfAHpKW1huKPXny\"]},\"src/interfaces/IWETH9.sol\":{\"keccak256\":\"0x50083bcaca6c1a8d12c79116fab4f6d8cd452a510cb3f00c4a8bc3a54678efb7\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://726f187112d0953c14bff8099a8c9ce1ead47eb25e90839f77b100feaaf16127\",\"dweb:/ipfs/QmTEnMENpLjcTQLMwz4kEUiQHfiTkaZT3TL37nQ8JiRYh5\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"_delegateImplementation\",\"type\":\"address\"},{\"internalType\":\"contract IJBDelegatesRegistry\",\"name\":\"_delegatesRegistry\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"projectId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"delegate\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"contract IJBDirectory\",\"name\":\"directory\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"caller\",\"type\":\"address\"}],\"name\":\"DelegateDeployed\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"delegateImplementation\",\"outputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"delegatesRegistry\",\"outputs\":[{\"internalType\":\"contract IJBDelegatesRegistry\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_projectId\",\"type\":\"uint256\"},{\"internalType\":\"contract IJBDirectory\",\"name\":\"_directory\",\"type\":\"address\"},{\"internalType\":\"contract IUniswapV3Pool\",\"name\":\"_pool\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_percentSwap\",\"type\":\"uint256\"}],\"name\":\"deployDelegateFor\",\"outputs\":[{\"internalType\":\"contract JBPaySplitDelegate\",\"name\":\"delegate\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"constructor\":{\"params\":{\"_delegateImplementation\":\"The delegate implementation that will be cloned.\",\"_delegatesRegistry\":\"A contract that stores references to delegate deployer contracts.\"}},\"deployDelegateFor(uint256,address,address,uint256)\":{\"params\":{\"_directory\":\"The directory of terminals and controllers for projects.\",\"_projectId\":\"The ID of the project for which the delegate will be deployed.\"},\"returns\":{\"delegate\":\"The address of the newly deployed delegate.\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"delegateImplementation()\":{\"notice\":\"An implementation of the Delegate being deployed.\"},\"delegatesRegistry()\":{\"notice\":\"A contract that stores references to deployer contracts of delegates.\"},\"deployDelegateFor(uint256,address,address,uint256)\":{\"notice\":\"Deploys a delegate for the provided project.\"}},\"notice\":\"A contract that deploys a delegate contract.\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/JBPaySplitDelegateDeployer.sol\":\"JBPaySplitDelegateDeployer\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":@prb/=node_modules/@prb/\",\":@uniswap/=node_modules/@uniswap/\",\":base64-sol/=node_modules/base64-sol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/enums/JBBallotState.sol\":{\"keccak256\":\"0x891fcac63470398b3a11239da7feba6b07d640809fcefd2404303b823d7378f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6e6adfceaf284b669a8c1cbcf2da7f18ab31a2d1066f9db8bc914349e7401de7\",\"dweb:/ipfs/QmXLHVRPPZdXUkgAHQbHUtEzAvCJk1P6rJ7wrwfTcfW6fw\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol\":{\"keccak256\":\"0x715321646db00514d1355ed43c40cd3f01e94959552fd07797b315d9c49cdb1d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c34c9e1c727ffc63dd42fb6e6ffb3116c8ba15d6a322a300f10f29478974768d\",\"dweb:/ipfs/QmYToaGrbMyyWAuyepYcDd8M6KcmosY8AWhT3uJmPM6Pvy\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleBallot.sol\":{\"keccak256\":\"0x49553a56209237846bc400cf27f260824a6bd06fd8094a7eb5abb9de75779598\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://559372746f94f28b385bc336df263f583dca5377350645c0b28110b083bdb41a\",\"dweb:/ipfs/QmeQRYqPjXBQCtMKXSFtHVD2ewEPoUAPDxLh4oWTRSKbmx\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleDataSource.sol\":{\"keccak256\":\"0xa424abc146a61b69db83e511c064492da6fab6d8226e13d1580bc9fbc50d6738\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://59c695ee79b9cd5447b83acb07c92627d747c6e6901e9145671c7ff12602f4c8\",\"dweb:/ipfs/Qma43bK5qkRkcWP9KNwfZ54WuMJsT2TAYfMXkdT1R7vRoK\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBFundingCycleStore.sol\":{\"keccak256\":\"0xaead823851433be0c2ddc8f8086813e6cd647de3a1bc0f7570a5d6b38c378b5a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7f11fd52ba9ef67b40811d8a2298ae8b69447d2565b3f1069cbb8f0f13bc65e7\",\"dweb:/ipfs/QmVbBzpTxZWar9xvj6x1vW91hJDv2iPVq7aG6waMxaHUPQ\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBPayDelegate.sol\":{\"keccak256\":\"0xa797de18b69eceba117e1f0b3810cf3cc2d2791417d580a5bdc510d1b868ab26\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://36b214c091c62c54d22cbedb606c29919cb56f1c29acf9c397c948247a29dcc0\",\"dweb:/ipfs/QmSzxHs8xNFqNfxZb1igvPHk7vXA5vUsGQ6AMfJ8jx8Ktu\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBPaymentTerminal.sol\":{\"keccak256\":\"0xb7826f5ed609359ce322c09e83236c47ba385df1c3cad3607e56fd0a2e00eee2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cbb0de0e73f73a04fcfc8f08cab3588b6d608cf5268af737cff6a530f6062c95\",\"dweb:/ipfs/QmPGb8aEbZNHNnrCvuGH52RLvV3kjL3agxQiFrjHoLHaup\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBProjects.sol\":{\"keccak256\":\"0x7cfc021d0bd7e73b1ba8f4845d7d35e3419d6a14d3d25ca3a8010e7f91062fe4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ff265e13e60da56b93104260ed69ab01153437ec2af9d453781f22ca295eaef9\",\"dweb:/ipfs/QmfGCSLX2Wy26ojf4U12udsdtjSSacbLcZGwCjTw7MjWF8\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBRedemptionDelegate.sol\":{\"keccak256\":\"0x172d2c0be65e72e54f71ae521907067f0fa30e8ca05c4f88826903208aa437e2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://266a32bd8feea10051a4e243e14692c62e99de7048cda2f541998b4cc64cbd51\",\"dweb:/ipfs/QmPfqsbSZdpQee4WbisK9ZnZRrXbUVvSpbfnrEKGfjzz9N\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":{\"keccak256\":\"0xd267fd8ca7c21c2c71794acdb9a98314c33a35fc559e0bf0897a6686d196d174\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa7053d4300ed1374f3f993e6e2163d0a05ee780e4e99eb007b55eabc93c724e\",\"dweb:/ipfs/QmYZAUn7VCwqpDWYZNCXLNYMRQpD334YgPRiGCfxQApzuT\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/libraries/JBTokens.sol\":{\"keccak256\":\"0xecf82992f7b827766aa55f16872517a646521eef414d8cc9786617ea377e5463\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4bb334faa6d2d071473bfcd7efeb5bfa068c340600c204651d59a94be4e4b147\",\"dweb:/ipfs/QmaKgSCvDNgQ6dh2gZfQ9VhkPuRCoACv8e7sd1K9VFikix\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidPayData.sol\":{\"keccak256\":\"0xf3c664309b37790f16047ae97b0459889ae0242dfcde7fc8902c8d10c7f8e6b6\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ea74b762604ffa0e45181d8ec31b130198546014f6360d15076af79952bc5874\",\"dweb:/ipfs/QmdukMbucvU75BpK4TsYKoqjpQ2Nhs9yjFVzcKGkG3SpSV\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBDidRedeemData.sol\":{\"keccak256\":\"0xe2c401f39723a7ce915b8bef328744c66daaf57460843964b941456c2258a412\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c3bddd802ff895aa54f047d2385c7c253f9e0cd5b23d4d84439c1590e7e66ccb\",\"dweb:/ipfs/QmXdSDWgEWMtJDqMhHrBCZnBM4qETXRPteB1wEGZBRxuUb\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycle.sol\":{\"keccak256\":\"0xcdd3ac9b6fa67e62ada88d09b73bc35ade1cd77d43db712289266a788928b4c2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8ba0be407022bbeb0e9272884653209ee262b8a4e00ffbba1298c3b119feccba\",\"dweb:/ipfs/QmbtLQzSN3hut4jYVsYPiYDfRkDdGkZmTWBnV2wJKrdM3K\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBFundingCycleData.sol\":{\"keccak256\":\"0x2aa6368bf4dfc5797e8b02a978293de0c777fae2658de2c825a103587240f3b0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2d7a980ab9b67ad1569d4407b747903cab668a332214117f5ad44feb50af0a3a\",\"dweb:/ipfs/QmSuEzmrmDSihrTKYCk8miq7VQi7WD6jmQePkjDyzt7UpC\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBPayDelegateAllocation.sol\":{\"keccak256\":\"0xb4e558dc62231d89e9b48998012577d22c3e52b58e23401f22d9096827f6ea0c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b6617a7479709d2a68fbc6686c9087fd7339ffcbb4823010287eb2ad979f23dd\",\"dweb:/ipfs/QmVT66SXpY9h5sD8nJq7VALbfWdeHwUxAeBPymaHg1TMNM\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBPayParamsData.sol\":{\"keccak256\":\"0x05007b26feb5d9a026b883c6d734a341b5a49ef7b8215fb40507882e2c14e24d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://52ef2d3c61f06243aead9afcb043299f362ff9f7b259386a88c4454b429436c0\",\"dweb:/ipfs/QmVpCJ1NyBGBDgNQpmojhjPmqx2gryzopGLgawHE26mwPr\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBProjectMetadata.sol\":{\"keccak256\":\"0x90ad7b1014c0a9f945fe7a2efde9d5de41e40574fa27969070b1d2ff52033ea0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1fafc65a9fd74605b7d6c6f0a92b3237a8e3efdd160affb8c117bad00dcf9494\",\"dweb:/ipfs/QmQkcVt11WLqrxHVrcDCF6dNxzg2kKHEghAgSbfLF6CHkt\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedeemParamsData.sol\":{\"keccak256\":\"0x5065a824ebb34952f016c6dfa47e8a7ac28427b719470e74a41022c11ace7788\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0006b9aeb387a8866d9f619de374d7618159e6a25d562f2c8fca984e2a4b9fea\",\"dweb:/ipfs/QmUfWBMHx6CxN921vM5RktJTP5AYEA3v2xpnMX5LGubhBC\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBRedemptionDelegateAllocation.sol\":{\"keccak256\":\"0x10c29d33dd0d875a0d4692a2b9a9355c2ebf433cc06a9a60253d4366b60d4d31\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://76614755cf61b78b3d3263ddcbf7c7146986374e4cdf5cc2abb67c523d957142\",\"dweb:/ipfs/QmVNGDmTCcfYxgbA83yURstmAU7vtAtjTh9zNFRwKMmTH1\"]},\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/structs/JBTokenAmount.sol\":{\"keccak256\":\"0x4a778e779ba257ba5638c5469e07a4d21b55a3128d56db5a0fdfacb1f3301c51\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fdb8302e06c5b4e1e91d204ed735d8d5db5bb3648200c144d7c545678010a44d\",\"dweb:/ipfs/QmTpffbt3FShkk8LDjsonVGnecbbNMUL8QHYQM7AFcMa54\"]},\"node_modules/@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol\":{\"keccak256\":\"0x5559fcd3983e7572b15d9a00d15c031aad22078f349760729893664bc2013c4c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fde585c6320af838560bfa4a6ecfd6c742859c73dac4a35dde3cd68a55121979\",\"dweb:/ipfs/QmSq7owwxRXBq4nghTwhMRJ6pPkxMXpsVHCCCeAWVf6cXw\"]},\"node_modules/@openzeppelin/contracts/interfaces/IERC20.sol\":{\"keccak256\":\"0x6ebf1944ab804b8660eb6fc52f9fe84588cee01c2566a69023e59497e7d27f45\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2900536cdadec954ced8789a9d1ed4b5e640029e1424e91fd5b88026486f4d45\",\"dweb:/ipfs/QmUMUX7CuYoiHvFkhifqtXGaciw2wnm4t9sAoPzETZ3Gbq\"]},\"node_modules/@openzeppelin/contracts/proxy/Clones.sol\":{\"keccak256\":\"0x01f055f5c26ba25d7f83e9aa9ba877fbea4d0bf22227de046ea67494bc932999\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e1306add0c9388918d04c45f6acae3551f019ebf8a77e6cc1c0958316ce1c1eb\",\"dweb:/ipfs/QmR4KHkcfP65RfZtH8TcC7rSdCoWk2Dnog6fhzzjLad8Aa\"]},\"node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x287b55befed2961a7eabd7d7b1b2839cbca8a5b80ef8dcbb25ed3d4c2002c305\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bd39944e8fc06be6dbe2dd1d8449b5336e23c6a7ba3e8e9ae5ae0f37f35283f5\",\"dweb:/ipfs/QmPV3FGYjVwvKSgAXKUN3r9T9GwniZz83CxBpM7vyj2G53\"]},\"node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol\":{\"keccak256\":\"0x5bce51e11f7d194b79ea59fe00c9e8de9fa2c5530124960f29a24d4c740a3266\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e66dfde185df46104c11bc89d08fa0760737aa59a2b8546a656473d810a8ea4\",\"dweb:/ipfs/QmXvyqtXPaPss2PD7eqPoSao5Szm2n6UMoiG8TZZDjmChR\"]},\"node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]},\"node_modules/@paulrberg/contracts/math/PRBMath.sol\":{\"keccak256\":\"0x42821345981bc0434a90ba2268a2f5278dfe9e38166981d72fc7f3b776a29495\",\"license\":\"Unlicense\",\"urls\":[\"bzz-raw://92f28eea1e22d4e7998617483eef42d89eb97b364414cf41041c86aa633d3b47\",\"dweb:/ipfs/QmT5entVZFjbb3ZGZZvNAGqtwerCgwjCfN1Qmvf8jKPBXj\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol\":{\"keccak256\":\"0xfe6113d518466cd6652c85b111e01f33eb62157f49ae5ed7d5a3947a2044adb1\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://1c42b9e6f5902ac38dd43e25750939baa7e0c1425dc75afd717c4412731065d5\",\"dweb:/ipfs/QmWaoacnzsucTvBME2o7YgZBZMhaHv7fkj83htHMVWJKWh\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/callback/IUniswapV3SwapCallback.sol\":{\"keccak256\":\"0x3f485fb1a44e8fbeadefb5da07d66edab3cfe809f0ac4074b1e54e3eb3c4cf69\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://095ce0626b41318c772b3ebf19d548282607f6a8f3d6c41c13edfbd5370c8652\",\"dweb:/ipfs/QmVDZfJJ89UUCE1hMyzqpkZAtQ8jUsBgZNE5AMRG7RzRFS\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol\":{\"keccak256\":\"0x9453dd0e7442188667d01d9b65de3f1e14e9511ff3e303179a15f6fc267f7634\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://982f4328f956c3e60e67501e759eb292ac487f76460c774c50e9ae4fcc92aae5\",\"dweb:/ipfs/QmRnzEDsaqtd9PJEVcgQi7p5aV5pMSvRUoGZJAdwFUJxgZ\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol\":{\"keccak256\":\"0xe603ac5b17ecdee73ba2b27efdf386c257a19c14206e87eee77e2017b742d9e5\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://8febc9bdb399a4d94bb89f5377732652e2400e4a8dee808201ade6848f9004e7\",\"dweb:/ipfs/QmaKDqYYFU4d2W2iN77aDHptfbFmYZRrMYXHeGpJmM8C1c\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol\":{\"keccak256\":\"0x8071514d0fe5d17d6fbd31c191cdfb703031c24e0ece3621d88ab10e871375cd\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://d0b571930cc7488b1d546a7e9cea7c52d8b3c4e207da657ed0e0db7343b8cd03\",\"dweb:/ipfs/QmaGK6vVwB95QSTR1XMYvrh7ivYAYZxi3fD7v6VMA4jZ39\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol\":{\"keccak256\":\"0xf6e5d2cd1139c4c276bdbc8e1d2b256e456c866a91f1b868da265c6d2685c3f7\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://b99c8c9ae8e27ee6559e5866bea82cbc9ffc8247f8d15b7422a4deb287d4d047\",\"dweb:/ipfs/QmfL8gaqt3ffAnm6nVj5ksuNpLygXuL3xq5VBqrkwC2JJ3\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol\":{\"keccak256\":\"0x759b78a2918af9e99e246dc3af084f654e48ef32bb4e4cb8a966aa3dcaece235\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://64144fb96e1c7fdba87305acadb98a198d26a3d46c097cb3a666e567f6f29735\",\"dweb:/ipfs/QmUnWVwN9FKB9uV5Pr8YfLpWZnYM2DENnRMaadZ492JS9u\"]},\"node_modules/@uniswap/v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol\":{\"keccak256\":\"0x852dc1f5df7dcf7f11e7bb3eed79f0cea72ad4b25f6a9d2c35aafb48925fd49f\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://ed63907c38ff36b0e22bc9ffc53e791ea74f0d4f0e7c257fdfb5aaf8825b1f0f\",\"dweb:/ipfs/QmSQrckghEjs6HVsA5GVgpNpZWvTXMY5eQLF7cN6deFeEg\"]},\"node_modules/@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol\":{\"keccak256\":\"0x9bfaf1feb32814623e627ab70f2409760b15d95f1f9b058e2b3399a8bb732975\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://a8a2c3e55965b61bcd91993d8e1d5d34b8b8a63e0fdfce87a85f6af92526fd53\",\"dweb:/ipfs/QmQj2CSCSwqDSU4KMNWxGsN2336Cy64WgpV1X1EHXNZWxM\"]},\"node_modules/prb-math/contracts/PRBMath.sol\":{\"keccak256\":\"0xed164c95012964f5e125b5d2b2d00471a4bdee4def618cd1fcf341d196011b61\",\"license\":\"Unlicense\",\"urls\":[\"bzz-raw://3ba3ad78675323279adfc09038eaa14f4cde3f3173e5d2d60b9c30bf7099aa7b\",\"dweb:/ipfs/QmV56KGJZQG681hwd7JQDv3KjAa9JSGF88ShGx8YBCuvcR\"]},\"src/JBPaySplitDelegate.sol\":{\"keccak256\":\"0x86476092b173f2e435ed32367b24e9c6c9257970d59a2e1271b6c9dc7c2613c7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c5244403eb42e4182fa523901879eb74b27a3f98b9921c642e5314da2c2cd415\",\"dweb:/ipfs/QmXsG2EbaTPsFMqcNbddh79yUeUSXKaeAfS2nF4gGwyPG7\"]},\"src/JBPaySplitDelegateDeployer.sol\":{\"keccak256\":\"0xf0c6c6b25035c9d19bbe2cdd9e00c87a9be1efc241a5b6aa006a1c0784499993\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e9cb04fdf0ae7f66685c939b353e9cb2efb56966c9f7d6cbe08c73a64678ca5f\",\"dweb:/ipfs/QmREH1fFytnEs9Z6TJJa9ZBU86m7mRvsfAHpKW1huKPXny\"]},\"src/interfaces/IWETH9.sol\":{\"keccak256\":\"0x50083bcaca6c1a8d12c79116fab4f6d8cd452a510cb3f00c4a8bc3a54678efb7\",\"license\":\"GPL-2.0-or-later\",\"urls\":[\"bzz-raw://726f187112d0953c14bff8099a8c9ce1ead47eb25e90839f77b100feaaf16127\",\"dweb:/ipfs/QmTEnMENpLjcTQLMwz4kEUiQHfiTkaZT3TL37nQ8JiRYh5\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.20+commit.a1b79de6"
@@ -624,10 +624,10 @@
         "license": "Unlicense"
       },
       "src/JBPaySplitDelegate.sol": {
-        "keccak256": "0x22bd7afbb70b9119515552945e8fe9fd689c3a31b377b950e566e1e235b1b4ab",
+        "keccak256": "0x86476092b173f2e435ed32367b24e9c6c9257970d59a2e1271b6c9dc7c2613c7",
         "urls": [
-          "bzz-raw://13b30cf7f3712cc6b60c61b8459ef009a570959fa23e91870c3058eca56f9444",
-          "dweb:/ipfs/QmZfrqg85JLH1ZxP1AZZfKPzyK8RSMPXqZKbrkNgkEjvW7"
+          "bzz-raw://c5244403eb42e4182fa523901879eb74b27a3f98b9921c642e5314da2c2cd415",
+          "dweb:/ipfs/QmXsG2EbaTPsFMqcNbddh79yUeUSXKaeAfS2nF4gGwyPG7"
         ],
         "license": "MIT"
       },
@@ -652,7 +652,7 @@
   },
   "ast": {
     "absolutePath": "src/JBPaySplitDelegateDeployer.sol",
-    "id": 34112,
+    "id": 34153,
     "exportedSymbols": {
       "Clones": [
         30258
@@ -688,20 +688,20 @@
         31557
       ],
       "IWETH9": [
-        34128
+        34169
       ],
       "JBPaySplitDelegate": [
-        34007
+        34048
       ],
       "JBPaySplitDelegateDeployer": [
-        34111
+        34152
       ]
     },
     "nodeType": "SourceUnit",
     "src": "32:2696:64",
     "nodes": [
       {
-        "id": 34009,
+        "id": 34050,
         "nodeType": "PragmaDirective",
         "src": "32:24:64",
         "nodes": [],
@@ -713,19 +713,19 @@
         ]
       },
       {
-        "id": 34011,
+        "id": 34052,
         "nodeType": "ImportDirective",
         "src": "58:64:64",
         "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/proxy/Clones.sol",
         "file": "@openzeppelin/contracts/proxy/Clones.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
+        "scope": 34153,
         "sourceUnit": 30259,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 34010,
+              "id": 34051,
               "name": "Clones",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -739,19 +739,19 @@
         "unitAlias": ""
       },
       {
-        "id": 34013,
+        "id": 34054,
         "nodeType": "ImportDirective",
         "src": "123:116:64",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol",
         "file": "@jbx-protocol/juice-delegates-registry/src/interfaces/IJBDelegatesRegistry.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
+        "scope": 34153,
         "sourceUnit": 30176,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 34012,
+              "id": 34053,
               "name": "IJBDelegatesRegistry",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -765,19 +765,19 @@
         "unitAlias": ""
       },
       {
-        "id": 34015,
+        "id": 34056,
         "nodeType": "ImportDirective",
         "src": "240:100:64",
         "nodes": [],
         "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol",
         "file": "@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBDirectory.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
+        "scope": 34153,
         "sourceUnit": 29513,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 34014,
+              "id": 34055,
               "name": "IJBDirectory",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -791,23 +791,23 @@
         "unitAlias": ""
       },
       {
-        "id": 34017,
+        "id": 34058,
         "nodeType": "ImportDirective",
         "src": "341:60:64",
         "nodes": [],
         "absolutePath": "src/JBPaySplitDelegate.sol",
         "file": "./JBPaySplitDelegate.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
-        "sourceUnit": 34008,
+        "scope": 34153,
+        "sourceUnit": 34049,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 34016,
+              "id": 34057,
               "name": "JBPaySplitDelegate",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 34007,
+              "referencedDeclaration": 34048,
               "src": "349:18:64",
               "typeDescriptions": {}
             },
@@ -817,51 +817,51 @@
         "unitAlias": ""
       },
       {
-        "id": 34018,
+        "id": 34059,
         "nodeType": "ImportDirective",
         "src": "402:55:64",
         "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/interfaces/IERC20.sol",
         "file": "@openzeppelin/contracts/interfaces/IERC20.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
+        "scope": 34153,
         "sourceUnit": 30179,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 34019,
+        "id": 34060,
         "nodeType": "ImportDirective",
         "src": "458:66:64",
         "nodes": [],
         "absolutePath": "node_modules/@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol",
         "file": "@uniswap/v3-core/contracts/interfaces/IUniswapV3Pool.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
+        "scope": 34153,
         "sourceUnit": 31124,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 34020,
+        "id": 34061,
         "nodeType": "ImportDirective",
         "src": "612:33:64",
         "nodes": [],
         "absolutePath": "src/interfaces/IWETH9.sol",
         "file": "./interfaces/IWETH9.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 34112,
-        "sourceUnit": 34129,
+        "scope": 34153,
+        "sourceUnit": 34170,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 34111,
+        "id": 34152,
         "nodeType": "ContractDefinition",
         "src": "704:2023:64",
         "nodes": [
           {
-            "id": 34033,
+            "id": 34074,
             "nodeType": "EventDefinition",
             "src": "746:149:64",
             "nodes": [],
@@ -870,18 +870,18 @@
             "name": "DelegateDeployed",
             "nameLocation": "752:16:64",
             "parameters": {
-              "id": 34032,
+              "id": 34073,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 34023,
+                  "id": 34064,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "projectId",
                   "nameLocation": "786:9:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34033,
+                  "scope": 34074,
                   "src": "778:17:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -890,7 +890,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 34022,
+                    "id": 34063,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "778:7:64",
@@ -903,37 +903,37 @@
                 },
                 {
                   "constant": false,
-                  "id": 34026,
+                  "id": 34067,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "delegate",
                   "nameLocation": "824:8:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34033,
+                  "scope": 34074,
                   "src": "805:27:64",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                     "typeString": "contract JBPaySplitDelegate"
                   },
                   "typeName": {
-                    "id": 34025,
+                    "id": 34066,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34024,
+                      "id": 34065,
                       "name": "JBPaySplitDelegate",
                       "nameLocations": [
                         "805:18:64"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 34007,
+                      "referencedDeclaration": 34048,
                       "src": "805:18:64"
                     },
-                    "referencedDeclaration": 34007,
+                    "referencedDeclaration": 34048,
                     "src": "805:18:64",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                       "typeString": "contract JBPaySplitDelegate"
                     }
                   },
@@ -941,13 +941,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 34029,
+                  "id": 34070,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "directory",
                   "nameLocation": "855:9:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34033,
+                  "scope": 34074,
                   "src": "842:22:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -956,10 +956,10 @@
                     "typeString": "contract IJBDirectory"
                   },
                   "typeName": {
-                    "id": 34028,
+                    "id": 34069,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34027,
+                      "id": 34068,
                       "name": "IJBDirectory",
                       "nameLocations": [
                         "842:12:64"
@@ -979,13 +979,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 34031,
+                  "id": 34072,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "caller",
                   "nameLocation": "882:6:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34033,
+                  "scope": 34074,
                   "src": "874:14:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -994,7 +994,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 34030,
+                    "id": 34071,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "874:7:64",
@@ -1011,13 +1011,13 @@
             }
           },
           {
-            "id": 34036,
+            "id": 34077,
             "nodeType": "VariableDeclaration",
             "src": "990:23:64",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 34034,
+              "id": 34075,
               "nodeType": "StructuredDocumentation",
               "src": "901:84:64",
               "text": "@notice This contract's current nonce, used for the Juicebox delegates registry."
@@ -1025,7 +1025,7 @@
             "mutability": "mutable",
             "name": "_nonce",
             "nameLocation": "1007:6:64",
-            "scope": 34111,
+            "scope": 34152,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1033,7 +1033,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 34035,
+              "id": 34076,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "990:7:64",
@@ -1045,13 +1045,13 @@
             "visibility": "internal"
           },
           {
-            "id": 34040,
+            "id": 34081,
             "nodeType": "VariableDeclaration",
             "src": "1086:58:64",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 34037,
+              "id": 34078,
               "nodeType": "StructuredDocumentation",
               "src": "1020:61:64",
               "text": "@notice An implementation of the Delegate being deployed."
@@ -1060,43 +1060,43 @@
             "mutability": "immutable",
             "name": "delegateImplementation",
             "nameLocation": "1122:22:64",
-            "scope": 34111,
+            "scope": 34152,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+              "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
               "typeString": "contract JBPaySplitDelegate"
             },
             "typeName": {
-              "id": 34039,
+              "id": 34080,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 34038,
+                "id": 34079,
                 "name": "JBPaySplitDelegate",
                 "nameLocations": [
                   "1086:18:64"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 34007,
+                "referencedDeclaration": 34048,
                 "src": "1086:18:64"
               },
-              "referencedDeclaration": 34007,
+              "referencedDeclaration": 34048,
               "src": "1086:18:64",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                 "typeString": "contract JBPaySplitDelegate"
               }
             },
             "visibility": "public"
           },
           {
-            "id": 34044,
+            "id": 34085,
             "nodeType": "VariableDeclaration",
             "src": "1237:55:64",
             "nodes": [],
             "constant": false,
             "documentation": {
-              "id": 34041,
+              "id": 34082,
               "nodeType": "StructuredDocumentation",
               "src": "1151:81:64",
               "text": "@notice A contract that stores references to deployer contracts of delegates."
@@ -1105,7 +1105,7 @@
             "mutability": "immutable",
             "name": "delegatesRegistry",
             "nameLocation": "1275:17:64",
-            "scope": 34111,
+            "scope": 34152,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1113,10 +1113,10 @@
               "typeString": "contract IJBDelegatesRegistry"
             },
             "typeName": {
-              "id": 34043,
+              "id": 34084,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 34042,
+                "id": 34083,
                 "name": "IJBDelegatesRegistry",
                 "nameLocations": [
                   "1237:20:64"
@@ -1135,72 +1135,72 @@
             "visibility": "public"
           },
           {
-            "id": 34063,
+            "id": 34104,
             "nodeType": "FunctionDefinition",
             "src": "1487:232:64",
             "nodes": [],
             "body": {
-              "id": 34062,
+              "id": 34103,
               "nodeType": "Block",
               "src": "1606:113:64",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 34056,
+                    "id": 34097,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 34054,
+                      "id": 34095,
                       "name": "delegateImplementation",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34040,
+                      "referencedDeclaration": 34081,
                       "src": "1616:22:64",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                         "typeString": "contract JBPaySplitDelegate"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 34055,
+                      "id": 34096,
                       "name": "_delegateImplementation",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34048,
+                      "referencedDeclaration": 34089,
                       "src": "1641:23:64",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                         "typeString": "contract JBPaySplitDelegate"
                       }
                     },
                     "src": "1616:48:64",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                       "typeString": "contract JBPaySplitDelegate"
                     }
                   },
-                  "id": 34057,
+                  "id": 34098,
                   "nodeType": "ExpressionStatement",
                   "src": "1616:48:64"
                 },
                 {
                   "expression": {
-                    "id": 34060,
+                    "id": 34101,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 34058,
+                      "id": 34099,
                       "name": "delegatesRegistry",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34044,
+                      "referencedDeclaration": 34085,
                       "src": "1674:17:64",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$30175",
@@ -1210,11 +1210,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 34059,
+                      "id": 34100,
                       "name": "_delegatesRegistry",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34051,
+                      "referencedDeclaration": 34092,
                       "src": "1694:18:64",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_IJBDelegatesRegistry_$30175",
@@ -1227,14 +1227,14 @@
                       "typeString": "contract IJBDelegatesRegistry"
                     }
                   },
-                  "id": 34061,
+                  "id": 34102,
                   "nodeType": "ExpressionStatement",
                   "src": "1674:38:64"
                 }
               ]
             },
             "documentation": {
-              "id": 34045,
+              "id": 34086,
               "nodeType": "StructuredDocumentation",
               "src": "1299:183:64",
               "text": "@param _delegateImplementation The delegate implementation that will be cloned.\n @param _delegatesRegistry A contract that stores references to delegate deployer contracts."
@@ -1245,41 +1245,41 @@
             "name": "",
             "nameLocation": "-1:-1:-1",
             "parameters": {
-              "id": 34052,
+              "id": 34093,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 34048,
+                  "id": 34089,
                   "mutability": "mutable",
                   "name": "_delegateImplementation",
                   "nameLocation": "1527:23:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34063,
+                  "scope": 34104,
                   "src": "1508:42:64",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                     "typeString": "contract JBPaySplitDelegate"
                   },
                   "typeName": {
-                    "id": 34047,
+                    "id": 34088,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34046,
+                      "id": 34087,
                       "name": "JBPaySplitDelegate",
                       "nameLocations": [
                         "1508:18:64"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 34007,
+                      "referencedDeclaration": 34048,
                       "src": "1508:18:64"
                     },
-                    "referencedDeclaration": 34007,
+                    "referencedDeclaration": 34048,
                     "src": "1508:18:64",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                       "typeString": "contract JBPaySplitDelegate"
                     }
                   },
@@ -1287,12 +1287,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 34051,
+                  "id": 34092,
                   "mutability": "mutable",
                   "name": "_delegatesRegistry",
                   "nameLocation": "1581:18:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34063,
+                  "scope": 34104,
                   "src": "1560:39:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1301,10 +1301,10 @@
                     "typeString": "contract IJBDelegatesRegistry"
                   },
                   "typeName": {
-                    "id": 34050,
+                    "id": 34091,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34049,
+                      "id": 34090,
                       "name": "IJBDelegatesRegistry",
                       "nameLocations": [
                         "1560:20:64"
@@ -1326,43 +1326,43 @@
               "src": "1498:107:64"
             },
             "returnParameters": {
-              "id": 34053,
+              "id": 34094,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1606:0:64"
             },
-            "scope": 34111,
+            "scope": 34152,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 34110,
+            "id": 34151,
             "nodeType": "FunctionDefinition",
             "src": "2027:698:64",
             "nodes": [],
             "body": {
-              "id": 34109,
+              "id": 34150,
               "nodeType": "Block",
               "src": "2228:497:64",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 34090,
+                    "id": 34131,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 34080,
+                      "id": 34121,
                       "name": "delegate",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34078,
+                      "referencedDeclaration": 34119,
                       "src": "2300:8:64",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                         "typeString": "contract JBPaySplitDelegate"
                       }
                     },
@@ -1375,14 +1375,14 @@
                             {
                               "arguments": [
                                 {
-                                  "id": 34086,
+                                  "id": 34127,
                                   "name": "delegateImplementation",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 34040,
+                                  "referencedDeclaration": 34081,
                                   "src": "2364:22:64",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                                     "typeString": "contract JBPaySplitDelegate"
                                   }
                                 }
@@ -1390,11 +1390,11 @@
                               "expression": {
                                 "argumentTypes": [
                                   {
-                                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                                     "typeString": "contract JBPaySplitDelegate"
                                   }
                                 ],
-                                "id": 34085,
+                                "id": 34126,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -1406,14 +1406,14 @@
                                   "typeString": "type(address)"
                                 },
                                 "typeName": {
-                                  "id": 34084,
+                                  "id": 34125,
                                   "name": "address",
                                   "nodeType": "ElementaryTypeName",
                                   "src": "2356:7:64",
                                   "typeDescriptions": {}
                                 }
                               },
-                              "id": 34087,
+                              "id": 34128,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1438,7 +1438,7 @@
                               }
                             ],
                             "expression": {
-                              "id": 34082,
+                              "id": 34123,
                               "name": "Clones",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -1449,7 +1449,7 @@
                                 "typeString": "type(library Clones)"
                               }
                             },
-                            "id": 34083,
+                            "id": 34124,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1464,7 +1464,7 @@
                               "typeString": "function (address) returns (address)"
                             }
                           },
-                          "id": 34088,
+                          "id": 34129,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1488,18 +1488,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 34081,
+                        "id": 34122,
                         "name": "JBPaySplitDelegate",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34007,
+                        "referencedDeclaration": 34048,
                         "src": "2311:18:64",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_JBPaySplitDelegate_$34007_$",
+                          "typeIdentifier": "t_type$_t_contract$_JBPaySplitDelegate_$34048_$",
                           "typeString": "type(contract JBPaySplitDelegate)"
                         }
                       },
-                      "id": 34089,
+                      "id": 34130,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1511,17 +1511,17 @@
                       "src": "2311:87:64",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                        "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                         "typeString": "contract JBPaySplitDelegate"
                       }
                     },
                     "src": "2300:98:64",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                       "typeString": "contract JBPaySplitDelegate"
                     }
                   },
-                  "id": 34091,
+                  "id": 34132,
                   "nodeType": "ExpressionStatement",
                   "src": "2300:98:64"
                 },
@@ -1529,11 +1529,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 34095,
+                        "id": 34136,
                         "name": "_projectId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34066,
+                        "referencedDeclaration": 34107,
                         "src": "2455:10:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1541,11 +1541,11 @@
                         }
                       },
                       {
-                        "id": 34096,
+                        "id": 34137,
                         "name": "_directory",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34069,
+                        "referencedDeclaration": 34110,
                         "src": "2467:10:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_IJBDirectory_$29512",
@@ -1553,11 +1553,11 @@
                         }
                       },
                       {
-                        "id": 34097,
+                        "id": 34138,
                         "name": "_pool",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34072,
+                        "referencedDeclaration": 34113,
                         "src": "2479:5:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_IUniswapV3Pool_$31123",
@@ -1565,11 +1565,11 @@
                         }
                       },
                       {
-                        "id": 34098,
+                        "id": 34139,
                         "name": "_percentSwap",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34074,
+                        "referencedDeclaration": 34115,
                         "src": "2486:12:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1597,18 +1597,18 @@
                         }
                       ],
                       "expression": {
-                        "id": 34092,
+                        "id": 34133,
                         "name": "delegate",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34078,
+                        "referencedDeclaration": 34119,
                         "src": "2435:8:64",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                           "typeString": "contract JBPaySplitDelegate"
                         }
                       },
-                      "id": 34094,
+                      "id": 34135,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1623,7 +1623,7 @@
                         "typeString": "function (uint256,contract IJBDirectory,contract IUniswapV3Pool,uint256) external"
                       }
                     },
-                    "id": 34099,
+                    "id": 34140,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1639,7 +1639,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 34100,
+                  "id": 34141,
                   "nodeType": "ExpressionStatement",
                   "src": "2435:64:64"
                 },
@@ -1647,11 +1647,11 @@
                   "eventCall": {
                     "arguments": [
                       {
-                        "id": 34102,
+                        "id": 34143,
                         "name": "_projectId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34066,
+                        "referencedDeclaration": 34107,
                         "src": "2673:10:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1659,23 +1659,23 @@
                         }
                       },
                       {
-                        "id": 34103,
+                        "id": 34144,
                         "name": "delegate",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34078,
+                        "referencedDeclaration": 34119,
                         "src": "2685:8:64",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                           "typeString": "contract JBPaySplitDelegate"
                         }
                       },
                       {
-                        "id": 34104,
+                        "id": 34145,
                         "name": "_directory",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 34069,
+                        "referencedDeclaration": 34110,
                         "src": "2695:10:64",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_IJBDirectory_$29512",
@@ -1684,7 +1684,7 @@
                       },
                       {
                         "expression": {
-                          "id": 34105,
+                          "id": 34146,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -1695,7 +1695,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 34106,
+                        "id": 34147,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1717,7 +1717,7 @@
                           "typeString": "uint256"
                         },
                         {
-                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                          "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                           "typeString": "contract JBPaySplitDelegate"
                         },
                         {
@@ -1729,18 +1729,18 @@
                           "typeString": "address"
                         }
                       ],
-                      "id": 34101,
+                      "id": 34142,
                       "name": "DelegateDeployed",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 34033,
+                      "referencedDeclaration": 34074,
                       "src": "2656:16:64",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_contract$_JBPaySplitDelegate_$34007_$_t_contract$_IJBDirectory_$29512_$_t_address_$returns$__$",
+                        "typeIdentifier": "t_function_event_nonpayable$_t_uint256_$_t_contract$_JBPaySplitDelegate_$34048_$_t_contract$_IJBDirectory_$29512_$_t_address_$returns$__$",
                         "typeString": "function (uint256,contract JBPaySplitDelegate,contract IJBDirectory,address)"
                       }
                     },
-                    "id": 34107,
+                    "id": 34148,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1756,14 +1756,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 34108,
+                  "id": 34149,
                   "nodeType": "EmitStatement",
                   "src": "2651:67:64"
                 }
               ]
             },
             "documentation": {
-              "id": 34064,
+              "id": 34105,
               "nodeType": "StructuredDocumentation",
               "src": "1725:297:64",
               "text": "@notice Deploys a delegate for the provided project.\n @param _projectId The ID of the project for which the delegate will be deployed.\n @param _directory The directory of terminals and controllers for projects.\n @return delegate The address of the newly deployed delegate."
@@ -1775,17 +1775,17 @@
             "name": "deployDelegateFor",
             "nameLocation": "2036:17:64",
             "parameters": {
-              "id": 34075,
+              "id": 34116,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 34066,
+                  "id": 34107,
                   "mutability": "mutable",
                   "name": "_projectId",
                   "nameLocation": "2071:10:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34110,
+                  "scope": 34151,
                   "src": "2063:18:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1794,7 +1794,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 34065,
+                    "id": 34106,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "2063:7:64",
@@ -1807,12 +1807,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 34069,
+                  "id": 34110,
                   "mutability": "mutable",
                   "name": "_directory",
                   "nameLocation": "2104:10:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34110,
+                  "scope": 34151,
                   "src": "2091:23:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1821,10 +1821,10 @@
                     "typeString": "contract IJBDirectory"
                   },
                   "typeName": {
-                    "id": 34068,
+                    "id": 34109,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34067,
+                      "id": 34108,
                       "name": "IJBDirectory",
                       "nameLocations": [
                         "2091:12:64"
@@ -1844,12 +1844,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 34072,
+                  "id": 34113,
                   "mutability": "mutable",
                   "name": "_pool",
                   "nameLocation": "2139:5:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34110,
+                  "scope": 34151,
                   "src": "2124:20:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1858,10 +1858,10 @@
                     "typeString": "contract IUniswapV3Pool"
                   },
                   "typeName": {
-                    "id": 34071,
+                    "id": 34112,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34070,
+                      "id": 34111,
                       "name": "IUniswapV3Pool",
                       "nameLocations": [
                         "2124:14:64"
@@ -1881,12 +1881,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 34074,
+                  "id": 34115,
                   "mutability": "mutable",
                   "name": "_percentSwap",
                   "nameLocation": "2162:12:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34110,
+                  "scope": 34151,
                   "src": "2154:20:64",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1895,7 +1895,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 34073,
+                    "id": 34114,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "2154:7:64",
@@ -1910,41 +1910,41 @@
               "src": "2053:127:64"
             },
             "returnParameters": {
-              "id": 34079,
+              "id": 34120,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 34078,
+                  "id": 34119,
                   "mutability": "mutable",
                   "name": "delegate",
                   "nameLocation": "2218:8:64",
                   "nodeType": "VariableDeclaration",
-                  "scope": 34110,
+                  "scope": 34151,
                   "src": "2199:27:64",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                    "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                     "typeString": "contract JBPaySplitDelegate"
                   },
                   "typeName": {
-                    "id": 34077,
+                    "id": 34118,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 34076,
+                      "id": 34117,
                       "name": "JBPaySplitDelegate",
                       "nameLocations": [
                         "2199:18:64"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 34007,
+                      "referencedDeclaration": 34048,
                       "src": "2199:18:64"
                     },
-                    "referencedDeclaration": 34007,
+                    "referencedDeclaration": 34048,
                     "src": "2199:18:64",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34007",
+                      "typeIdentifier": "t_contract$_JBPaySplitDelegate_$34048",
                       "typeString": "contract JBPaySplitDelegate"
                     }
                   },
@@ -1953,7 +1953,7 @@
               ],
               "src": "2198:29:64"
             },
-            "scope": 34111,
+            "scope": 34152,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1965,21 +1965,21 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "documentation": {
-          "id": 34021,
+          "id": 34062,
           "nodeType": "StructuredDocumentation",
           "src": "647:57:64",
           "text": "@notice A contract that deploys a delegate contract."
         },
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          34111
+          34152
         ],
         "name": "JBPaySplitDelegateDeployer",
         "nameLocation": "713:26:64",
-        "scope": 34112,
+        "scope": 34153,
         "usedErrors": [],
         "usedEvents": [
-          34033
+          34074
         ]
       }
     ],

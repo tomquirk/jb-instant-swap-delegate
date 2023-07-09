@@ -2,6 +2,15 @@
 
 A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
+## Deployments
+
+| Contract                                         | Network | Address                                      |
+| ------------------------------------------------ | ------- | -------------------------------------------- |
+| Deployer                                         | goerli  | `0x21e90155c71cf3b33ceed3adc2ab68dbf9f28c65` |
+| Example delegate (WETH => METH, JB project 1097) | goerli  | `0x0f83918c187585e6343ac438e2110efd3000141a` |
+
+- Deployer:
+
 ### What
 
 JBPaySplitDelegate is a `pay` delegate for the Juicebox protocol. It swaps a specified portion of a Juicebox project payment to a specified token (using Uniswap), and sends the proceeds to the Juicebox project owner.
