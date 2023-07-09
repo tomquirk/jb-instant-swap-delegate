@@ -18,7 +18,6 @@
     "doc": "forge doc",
     "deploy:mainnet": "source .env && forge script DeployMainnet --broadcast --network mainnet --rpc-url $RPC_MAINNET --verify --private-key $PRIVATE_KEY ",
     "deploy:goerli": "source .env && forge script DeployGoerli --broadcast --rpc-url $RPC_GOERLI --verify --private-key $PRIVATE_KEY --etherscan-api-key $ETHERSCAN_API_KEY",
-    "verify": "source .env && forge verify-contract --etherscan-api-key $ETHERSCAN_API_KEY 0xfBc217f1a05aCe99609605E6EF5f85191833429F YoloDelegateDeployer --chain-id 5",
     "tree": "forge tree",
     "lint": "forge fmt"
   }
