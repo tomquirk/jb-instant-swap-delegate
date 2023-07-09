@@ -13,7 +13,11 @@ A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
 Example `pay` transaction using JBPaySplitDelegate: https://goerli.etherscan.io/tx/0xf5cfea90c5b9c96e9241b24d602d488ccfbe6ec12fc26a67c694ff701bcd27f9
 
+### How to verify
 
+1. Note balance of $METH for `0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e` ([Project #1097](https://goerli.juicebox.money/v2/p/1097) owner)
+2. Pay [Project #1097](https://goerli.juicebox.money/v2/p/1097).
+3. Note balance of $METH for `0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e` again. It should be higher than the first amount recorded in Step 1.
 
 ### What
 
@@ -87,11 +91,8 @@ Dependencies:
 
    Note: the `preinstall` script will run `forge install` for you.
 
-### Install & Update Yarn
 
-Follow the instructions in the [Yarn Docs](https://classic.yarnpkg.com/en/docs/install). People tend to use the latest version of Yarn 1 (not Yarn 2+).
-
-# Usage
+### Usage
 
 use `yarn test` to run tests
 
@@ -108,3 +109,7 @@ use `yarn tree` to generate a Solidity dependency tree
 use `yarn deploy:mainnet` and `yarn deploy:goerli` to deploy and verify (see .env.example for required env vars, using a ledger by default).
 
 Run `yarn coverage`to display code coverage summary and generate an LCOV report
+
+## Ack
+
+Thanks to https://github.com/jbx-protocol/juice-buyback for showing me the wei initially.
