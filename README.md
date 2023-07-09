@@ -29,7 +29,7 @@ Juicebox project owners often need to keep some amount of ERC20's in their walle
 
 [Peel](https://juicebox.money/@peel) is one such project.
 
-Currently, this is a manual process. The project owner (often a multisig e.g. Safe) must reserve some ETH for themselves as a payout and submit a transaction to swap ETH for the desired token.
+Currently, this is a manual process. The project owner (often a multisig e.g. Safe) must reserve some ETH for themselves as a payout and submit a transaction to swap ETH for the desired token. This is time-consuming, especially is a multisig scenario that requires multiple signatures.
 
 JBPaySplitDelegate automates this process.
 
