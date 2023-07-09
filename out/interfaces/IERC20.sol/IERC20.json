@@ -13,7 +13,7 @@
     "id": 30179,
     "exportedSymbols": {
       "IERC20": [
-        30336
+        30923
       ]
     },
     "nodeType": "SourceUnit",
@@ -40,7 +40,7 @@
         "file": "../token/ERC20/IERC20.sol",
         "nameLocation": "-1:-1:-1",
         "scope": 30179,
-        "sourceUnit": 30337,
+        "sourceUnit": 30924,
         "symbolAliases": [],
         "unitAlias": ""
       }

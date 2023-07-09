@@ -33,7 +33,7 @@
   "methodIdentifiers": {
     "getUri(uint256)": "da0544aa"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_projectId\",\"type\":\"uint256\"}],\"name\":\"getUri\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"tokenUri\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":\"IJBTokenUriResolver\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":@prb/=node_modules/@prb/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":{\"keccak256\":\"0xd267fd8ca7c21c2c71794acdb9a98314c33a35fc559e0bf0897a6686d196d174\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa7053d4300ed1374f3f993e6e2163d0a05ee780e4e99eb007b55eabc93c724e\",\"dweb:/ipfs/QmYZAUn7VCwqpDWYZNCXLNYMRQpD334YgPRiGCfxQApzuT\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_projectId\",\"type\":\"uint256\"}],\"name\":\"getUri\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"tokenUri\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":\"IJBTokenUriResolver\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@jbx-protocol/=node_modules/@jbx-protocol/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@paulrberg/=node_modules/@paulrberg/\",\":@prb/=node_modules/@prb/\",\":@uniswap/=node_modules/@uniswap/\",\":base64-sol/=node_modules/base64-sol/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":prb-math/=node_modules/prb-math/\"]},\"sources\":{\"node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol\":{\"keccak256\":\"0xd267fd8ca7c21c2c71794acdb9a98314c33a35fc559e0bf0897a6686d196d174\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://aa7053d4300ed1374f3f993e6e2163d0a05ee780e4e99eb007b55eabc93c724e\",\"dweb:/ipfs/QmYZAUn7VCwqpDWYZNCXLNYMRQpD334YgPRiGCfxQApzuT\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.20+commit.a1b79de6"
@@ -78,6 +78,8 @@
         ":@openzeppelin/=node_modules/@openzeppelin/",
         ":@paulrberg/=node_modules/@paulrberg/",
         ":@prb/=node_modules/@prb/",
+        ":@uniswap/=node_modules/@uniswap/",
+        ":base64-sol/=node_modules/base64-sol/",
         ":ds-test/=lib/forge-std/lib/ds-test/src/",
         ":forge-std/=lib/forge-std/src/",
         ":prb-math/=node_modules/prb-math/"
@@ -108,19 +110,19 @@
   },
   "ast": {
     "absolutePath": "node_modules/@jbx-protocol/juice-contracts-v3/contracts/interfaces/IJBTokenUriResolver.sol",
-    "id": 31293,
+    "id": 29931,
     "exportedSymbols": {
       "IJBTokenUriResolver": [
-        31292
+        29930
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "32:145:39",
+    "src": "32:145:28",
     "nodes": [
       {
-        "id": 31284,
+        "id": 29922,
         "nodeType": "PragmaDirective",
-        "src": "32:23:39",
+        "src": "32:23:28",
         "nodes": [],
         "literals": [
           "solidity",
@@ -130,34 +132,34 @@
         ]
       },
       {
-        "id": 31292,
+        "id": 29930,
         "nodeType": "ContractDefinition",
-        "src": "57:119:39",
+        "src": "57:119:28",
         "nodes": [
           {
-            "id": 31291,
+            "id": 29929,
             "nodeType": "FunctionDefinition",
-            "src": "91:83:39",
+            "src": "91:83:28",
             "nodes": [],
             "functionSelector": "da0544aa",
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "getUri",
-            "nameLocation": "100:6:39",
+            "nameLocation": "100:6:28",
             "parameters": {
-              "id": 31287,
+              "id": 29925,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 31286,
+                  "id": 29924,
                   "mutability": "mutable",
                   "name": "_projectId",
-                  "nameLocation": "115:10:39",
+                  "nameLocation": "115:10:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 31291,
-                  "src": "107:18:39",
+                  "scope": 29929,
+                  "src": "107:18:28",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -165,10 +167,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 31285,
+                    "id": 29923,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "107:7:39",
+                    "src": "107:7:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -177,21 +179,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "106:20:39"
+              "src": "106:20:28"
             },
             "returnParameters": {
-              "id": 31290,
+              "id": 29928,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 31289,
+                  "id": 29927,
                   "mutability": "mutable",
                   "name": "tokenUri",
-                  "nameLocation": "164:8:39",
+                  "nameLocation": "164:8:28",
                   "nodeType": "VariableDeclaration",
-                  "scope": 31291,
-                  "src": "150:22:39",
+                  "scope": 29929,
+                  "src": "150:22:28",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -199,10 +201,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 31288,
+                    "id": 29926,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "150:6:39",
+                    "src": "150:6:28",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -211,9 +213,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "149:24:39"
+              "src": "149:24:28"
             },
-            "scope": 31292,
+            "scope": 29930,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -226,16 +228,16 @@
         "contractKind": "interface",
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          31292
+          29930
         ],
         "name": "IJBTokenUriResolver",
-        "nameLocation": "67:19:39",
-        "scope": 31293,
+        "nameLocation": "67:19:28",
+        "scope": 29931,
         "usedErrors": [],
         "usedEvents": []
       }
     ],
     "license": "MIT"
   },
-  "id": 39
+  "id": 28
 }

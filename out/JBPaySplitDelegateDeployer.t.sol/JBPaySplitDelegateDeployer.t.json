@@ -1,0 +1,33 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/JBPaySplitDelegateDeployer.t.sol",
+    "id": 34569,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "0:1908:67",
+    "nodes": [
+      {
+        "id": 34568,
+        "nodeType": "PragmaDirective",
+        "src": "0:24:67",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".16"
+        ]
+      }
+    ]
+  },
+  "id": 67
+}

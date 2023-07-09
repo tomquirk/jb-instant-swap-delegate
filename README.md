@@ -1,50 +1,83 @@
-# juice-delegate-template
-Template used to code juicy solidity Delegate stuff - includes forge, libs, etc. 
+# JBPaySplitDelegate
 
-This template is a good starting point for building solidity Delegate extensions to the Juicebox Protocol. Delegates define pockets of code that get called when a project receives payments and when token holders attempt to reclaim funds from a project. Forking this template may help you to avoid submodule related dependency issues down the road.
+A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
-Do not push straight on main, rather create a new branch and open a PR - your reviewer will love you for this.
+### What
 
-This repo includes an example delegate as well as utilites for deploying or reconfiguring a project that uses the delegate.
+JBPaySplitDelegate is a `pay` delegate for the Juicebox protocol. It swaps a specified portion of a Juicebox project payment to a specified token (using Uniswap), and sends the proceeds to the Juicebox project owner.
 
-# Getting started
-## Prerequisites
-### Install & Update Foundry
-Install Forge with `curl -L https://foundry.paradigm.xyz | bash`. If you already have Foundry installed, run `foundryup` to update to the latest version. More detailed instructions can be found in the [Foundry Book](https://book.getfoundry.sh/getting-started/installation).
+### Why
+
+Juicebox project owners often need to keep some amount of ERC20's in their wallet for operational expenses. For example, a Juicebox project might need $USDC to pay its Infura bill, or $GRT to pay for TheGraph expenses.
+
+Currently, this is a manual process. The project owner (often a multisig e.g. Safe) must reserve some ETH for themselves as a payout and submit a transaction to swap ETH for the desired token.
+
+JBPaySplitDelegate automates this process.
+
+### Who's it for
+
+Any Juicebox project that needs to keep a balance of particular ERC20 token (for opex or otherwise).
+
+#### Example usage
+
+A project owner might use to swap 10% of every payment their project receives to USDC. This ensures they always have some USDC on hand for expenses.
+
+A project owner could also use JBPaySplitDelegate to dollar-cost-average out of ETH to a given token.
+
+### Future development
+
+While developing this project, I realized that JBPaySplitDelegate could be made far more flexible.
+
+Instead of swapping a single token with a single beneficiary (the project owner), why not mimic the core Juicebox Splits feature?
+
+JBPaySplitDelegate could define various split types, for example:
+
+- ETHSplit: divert some of the ETH payment to some address
+- TokenSplit: swap some of the payment to a given token
+
+Then, each split could have a different beneficiary type:
+
+- `owner`: transfer portion of payment to the project owner
+- `project`: transfer portion of payment to another Juicebox project
+- `address`: transfer portion of payment to a given Ethereum address
+
+#### Client and app support
+
+It's simple for clients to support JBPaySplitDelegate. If a Juicebox project has its funding cycle datasource set to a JBPaySplitDelegate, then the client can show:
+
+- how much of their payment is going to the Juicebox project treasury
+- how much of their payment is going to the project owner
+- the tokens being swapped
+
+#### Gas concerns
+
+The Juicebox Core contracts are optimized for payments to incur as least gas as possible. Makes sense!
+
+Payments to Juicebox projects with this delegate will cost more gas. This might be undesirable for the payer.
+
+Giving users the option to opt out of this might be an option (for example, using a checkbox).
+
+## Development
+
+Dependencies:
+
+- Foundry installed and updated ([Learn how to install Foundry](https://book.getfoundry.sh/getting-started/installation))
+- Yarn ([Learn how to use Yarn](https://classic.yarnpkg.com/en/docs/install))
+
+1. Install dependencies
+
+   ```bash
+   yarn install
+   ```
+
+   Note: the `preinstall` script will run `forge install` for you.
 
 ### Install & Update Yarn
+
 Follow the instructions in the [Yarn Docs](https://classic.yarnpkg.com/en/docs/install). People tend to use the latest version of Yarn 1 (not Yarn 2+).
 
-## Install Included Dependencies
-Install dependencies (forge tests, Juice-contracts-V3, OZ) via `yarn install` (the `preinstall` script will run `forge install` for you)
-
-# Adding dependencies
-## With Yarn
-If the dependency you would like to install has an NPM package, use `yarn add [package]` where [package] is the package name. This will install the dependency to `node_modules`.
-
-Tell forge to look for node libraries by adding `node_modules` to the `foundry.toml` by updating `libs` like so: `libs = ['lib', 'node_modules']`.
-
-Add dependencies to `remappings.txt` by running `forge remappings >> remappings.txt`. For example, the NPM package `jbx-protocol` is remapped as `@jbx-protocol/=node_modules/@jbx-protocol/`.
-
-## With Forge
-If the dependency you would like to install does not have an up-to-date NPM package, use `forge install [dependency]` where [dependency] is the path to the dependency repo. This will install the dependency to `/lib`. Forge manages dependencies using git submodules.
-
-Run `forge remappings > remappings.txt` to write the dependencies to `remappings.txt`. Note that this will overwrite that file. 
-
-If nested dependencies are not installing, try this workaround `git submodule update --init --recursive --force`. Nested dependencies are dependencies of the dependencies you have installed. 
-
-More information on remappings is available in the Forge Book.
-
-# Updating dependencies
-## With Yarn
-Run `yarn upgrade [package]`.
-
-## With Forge
-Run `foundryup` to update forge. 
-
-Run `forge update` to update all dependencies, or run `forge update [dependency]` to update a specific dependency.
-
 # Usage
+
 use `yarn test` to run tests
 
 use `yarn test:fork` to run tests in CI mode (including slower mainnet fork tests)
@@ -59,12 +92,4 @@ use `yarn tree` to generate a Solidity dependency tree
 
 use `yarn deploy:mainnet` and `yarn deploy:goerli` to deploy and verify (see .env.example for required env vars, using a ledger by default).
 
-## Code coverage
 Run `yarn coverage`to display code coverage summary and generate an LCOV report
-
-To display code coverage in VSCode:
-- You need to install the [coverage gutters extension (Ryan Luker)](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) or any other extension handling LCOV reports
-- ctrl shift p > "Coverage Gutters: Display Coverage" (coverage are the colored markdown lines in the left gutter, after the line numbers)
-
-## PR
-Github CI flow will run both unit and forked tests, log the contracts size (with the tests) and check linting compliance.
