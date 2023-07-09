@@ -15,9 +15,9 @@ Example `pay` transaction using JBPaySplitDelegate: https://goerli.etherscan.io/
 
 ### How to verify it works
 
-1. Note balance of $METH for `0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e` ([Project #1097](https://goerli.juicebox.money/v2/p/1097) owner)
+1. Note balance of $METH for [`0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e`](https://goerli.etherscan.io/address/0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e) ([Project #1097](https://goerli.juicebox.money/v2/p/1097) owner)
 2. Pay [Project #1097](https://goerli.juicebox.money/v2/p/1097).
-3. Note balance of $METH for `0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e` again. It should be higher than the first amount recorded in Step 1.
+3. Note balance of $METH for [`0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e`](https://goerli.etherscan.io/address/0x0028C35095D34C9C8a3bc84cB8542cB182fcfa8e) again. It should be higher than the first amount recorded in Step 1.
 
 ### What
 
@@ -90,7 +90,6 @@ Dependencies:
    ```
 
    Note: the `preinstall` script will run `forge install` for you.
-
 
 ### Usage
 
