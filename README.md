@@ -1,4 +1,4 @@
-# JBPaySplitDelegate ↬
+# instant-swap-delegate 🔁
 
 A Juicebox protocol `pay` delegate for automating treasury token swaps.
 
